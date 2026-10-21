@@ -59,8 +59,8 @@ My background spans enterprise IT operations, Microsoft 365, identity management
 
 ### Professional snapshot
 
-- **Current role:** IT Service Desk Lead / Site Lead — SelectQuote / SelectRx
-- **Education:** B.S. Cybersecurity (2025) and A.A.S. Information Technology (2023) — Purdue University Global
+- **Leadership experience:** IT Service Desk Lead / Site Lead — SelectQuote / SelectRx (confirm exact dates before publication)
+- **Education:** B.S. Cybersecurity and A.A.S. Information Technology — Purdue University Global
 - **Strengths:** Technical leadership, incident escalation, IT operations, stakeholder coordination, and security-minded problem solving
 - **Working knowledge:** Microsoft 365, Active Directory, Microsoft Entra ID, Intune/MDM, Windows, PowerShell, and networking
 
@@ -102,21 +102,21 @@ I'm interested in connecting with professionals and organizations working in IT 
 
 I'm Austin Dalton, an IT operations professional and technical leader based in Westfield, Indiana. My work combines enterprise technology support, systems administration, cybersecurity education, project management, and mentoring.
 
-Today I serve as an IT Service Desk Lead and Site Lead at SelectQuote / SelectRx. I support complex enterprise technology issues, help coordinate resolution across internal teams and vendors, and lead a team of three. I also mentor support colleagues, improve technical documentation, and focus on restoring productivity while strengthening repeatable processes.
+In an IT Service Desk Lead and Site Lead role at SelectQuote / SelectRx, I helped lead a three-person technical team, coordinated complex support work, improved daily operational checklists and documentation, and contributed to more organized printer supply-ordering workflows. The wider organization serves over 4,000 employees across approximately 1,780 Windows and 2,500 Apple devices. These fleet totals describe the broader IT environment, not my personal device ownership.
 
 My route into technology was not a straight line. Before moving into enterprise IT, I spent approximately a decade in commercial real estate project management. That experience taught me how to manage competing priorities, coordinate vendors, communicate with stakeholders, evaluate risks, and keep work moving toward defined outcomes. Those lessons are directly relevant to leading IT teams and delivering technology changes.
 
-I earned a Bachelor of Science in Cybersecurity from Purdue University Global in December 2025, following an Associate of Applied Science in Information Technology in 2023. The degrees reinforced my hands-on experience with a deeper understanding of infrastructure, risk, access control, network architecture, and the human side of information security.
+I completed a Bachelor of Science in Cybersecurity and an Associate of Applied Science in Information Technology at Purdue University Global. The degrees reinforced my hands-on experience with a deeper understanding of infrastructure, risk, access control, network architecture, and the human side of information security.
 
 I continue developing my technical skills through personal software projects, hands-on experimentation, and new approaches to automation. Outside work, coaching has been another important part of my leadership experience; mentoring student athletes reinforced the value of preparation, accountability, and clear communication.
 
 ### Experience
 
-**IT Service Desk Lead / Site Lead — SelectQuote / SelectRx | 2025–Present**
+**IT Service Desk Lead / Site Lead — SelectQuote / SelectRx**
 
-Lead a three-person team and serve as an advanced technical escalation resource within an enterprise environment. Work across Windows endpoints, Microsoft 365, Active Directory and Entra ID, identity-related issues, networking, and endpoint management. Coordinate with technical teams and external vendors, mentor support staff, and contribute to clearer workflows, documentation, and incident resolution practices.
+Helped lead a three-person technical team in enterprise IT operations. Supported complex escalations, cross-team coordination, documentation, daily operational checklists, and improvements to the ordering workflow for printer ink and supplies. Also contributed hands-on server-room equipment setup and Ethernet cabling.
 
-**Project Manager — EdgeRock Development, LLC | 2015–2025**
+**Project Manager — EdgeRock Development, LLC | Beginning 2015**
 
 Coordinated commercial development activities and stakeholder communications, including vendors, project timelines, budgets, invoices, scheduling, and operational challenges. Balanced technical details and business priorities while supporting project planning, risk management, and delivery.
 
@@ -126,11 +126,11 @@ Mentored student athletes, organized practices and events, coordinated schedules
 
 ### Education
 
-**Bachelor of Science in Cybersecurity — Purdue University Global | December 2025**
+**Bachelor of Science in Cybersecurity — Purdue University Global**
 
 Coursework and capstone research emphasized security awareness, organizational culture, cyber risk, access control, and the relationship between people, process, and technical safeguards.
 
-**Associate of Applied Science in Information Technology — Purdue University Global | 2023**
+**Associate of Applied Science in Information Technology — Purdue University Global**
 
 Studied IT infrastructure and network design. Completed an enterprise network architecture and implementation-planning capstone using project-management tools and network design documentation.
 
