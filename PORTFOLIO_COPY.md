@@ -28,7 +28,7 @@ My background spans enterprise IT operations, Microsoft 365, identity management
 
 ### Professional snapshot
 
-- **Current role:** Tier 4 Service Desk Lead / Site Lead — SelectQuote / SelectRx
+- **Current role:** IT Service Desk Lead / Site Lead — SelectQuote / SelectRx
 - **Education:** B.S. Cybersecurity (2025) and A.A.S. Information Technology (2023) — Purdue University Global
 - **Strengths:** Technical leadership, incident escalation, IT operations, stakeholder coordination, and security-minded problem solving
 - **Working knowledge:** Microsoft 365, Active Directory, Microsoft Entra ID, Intune/MDM, Windows, PowerShell, and networking
@@ -71,7 +71,7 @@ I'm interested in connecting with professionals and organizations working in IT 
 
 I'm Austin Dalton, an IT operations professional and technical leader based in Westfield, Indiana. My work combines enterprise technology support, systems administration, cybersecurity education, project management, and mentoring.
 
-Today I serve as a Tier 4 Service Desk Lead and Site Lead at SelectQuote / SelectRx. I support complex enterprise technology issues, help coordinate resolution across internal teams and vendors, and lead a team of three. I also mentor support colleagues, improve technical documentation, and focus on restoring productivity while strengthening repeatable processes.
+Today I serve as a IT Service Desk Lead and Site Lead at SelectQuote / SelectRx. I support complex enterprise technology issues, help coordinate resolution across internal teams and vendors, and lead a team of three. I also mentor support colleagues, improve technical documentation, and focus on restoring productivity while strengthening repeatable processes.
 
 My route into technology was not a straight line. Before moving into enterprise IT, I spent approximately a decade in commercial real estate project management. That experience taught me how to manage competing priorities, coordinate vendors, communicate with stakeholders, evaluate risks, and keep work moving toward defined outcomes. Those lessons are directly relevant to leading IT teams and delivering technology changes.
 
@@ -81,7 +81,7 @@ I continue developing my technical skills through personal software projects, ha
 
 ### Experience
 
-**Tier 4 Service Desk Lead / Site Lead — SelectQuote / SelectRx | 2025–Present**
+**IT Service Desk Lead / Site Lead — SelectQuote / SelectRx | 2025–Present**
 
 Lead a three-person team and serve as an advanced technical escalation resource within an enterprise environment. Work across Windows endpoints, Microsoft 365, Active Directory and Entra ID, identity-related issues, networking, and endpoint management. Coordinate with technical teams and external vendors, mentor support staff, and contribute to clearer workflows, documentation, and incident resolution practices.
 
