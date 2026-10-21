@@ -1,194 +1,153 @@
-# Austin Dalton — Personal Professional Portfolio Copy
+# Austin Dalton — Portfolio Content Source
 
-> Content-first editorial draft. This document is the authoritative copy proposal; design and styling are intentionally out of scope. All job descriptions are written as experience and responsibility statements, not unverified performance claims.
+> Working editorial record for the personal portfolio. The published HTML files reflect the content below. Do not invent performance metrics, security responsibilities, administrative permissions, or employer-confidential technical details.
 
-## Confirmed enterprise context & career direction (October 2026)
+## Professional positioning
 
-- **Career objective:** IT Director. Present Austin as an IT professional with leadership experience aspiring to this role, not as someone who already holds the title.
-- **Organization scale:** More than **4,000 employees**, approximately **1,780 Windows devices**, and approximately **2,500 Apple iPads and iPhones**. These are **organization-wide environment figures**, not a claim that Austin individually manages every employee or device.
-- **Leadership experience:** Previously discussed leading a three-person technical team. Recent wording indicates the lead role may have been in the past; do not assert the position is current without checking.
-- **Verified operational contributions:** Helped create/improve documentation, improve daily support checklists, and improve the workflow for ordering printer ink and supplies. No savings, resolution-time change, or volume metrics confirmed.
-- **Hands-on infrastructure:** Assisted with equipment setup in server rooms and ran Ethernet cabling. Do not imply Austin alone designed or installed an enterprise data center.
-- **Programming:** Independent programming and web-development experience, plus the projects already documented.
-- **Site positioning:** Enterprise IT Operations | Technical Leadership | Cybersecurity, with a clear IT Director career direction.
-- **Education-date caution:** Both Purdue Global degrees are completed. Confirm exact completion years against records before publishing degree dates; previous drafts were inconsistent.
+**Target career direction:** IT Director / IT management  
+**Current position:** IT Desktop Support — Gaylor Electric  
+**Previous IT leadership:** IT Service Desk Lead / Site Lead — SelectQuote / SelectRx  
+**Education:** Bachelor of Science in Cybersecurity and Associate of Applied Science in Information Technology — Purdue University Global  
+**Additional background:** Approximately a decade of commercial real estate project management; coaching and mentoring.
 
-### Suggested homepage message
+**Suggested headline:** Enterprise IT Operations | Technical Leadership Experience | Cybersecurity
 
-**Enterprise-scale IT. Practical leadership. Security-minded thinking.**
+**Hero statement:** Connecting enterprise technology, people, and practical solutions.
 
-My experience spans IT operations in an organization serving more than 4,000 employees, technical team leadership, infrastructure support, and operational process improvements. I combine hands-on systems knowledge with a cybersecurity degree and a decade of project management experience.
+**Bio:** I'm an IT Desktop Support professional at Gaylor Electric, with previous service desk leadership experience and a bachelor's degree in Cybersecurity. I work across enterprise endpoints, identity and collaboration systems, hardware infrastructure, and operational improvements—combining hands-on support with a decade of project management experience.
 
-### Three grounded contribution stories
+## Current role: Gaylor Electric
 
-**Operational documentation:** Contributed to technical documentation and improved daily checklists to establish clearer, repeatable support processes.
+**Job title:** IT Desktop Support. Do NOT identify Austin as a current IT team lead, IT manager, or IT Director.
 
-**Supply workflow improvement:** Helped improve the process for ordering printer ink and supplies, addressing a recurring operational need.
+**Enterprise context reported by Austin:**
+- Organization serves **over 4,000 employees**.
+- Broader device fleet includes approximately **1,780 Windows devices**.
+- Broader Apple fleet includes approximately **2,500 iPads and iPhones**.
+- These are **organization-wide figures**, NOT Austin's individual device count, direct reporting line, or personal responsibility for every endpoint.
 
-**Physical infrastructure:** Helped set up server-room equipment and run Ethernet cabling as part of hands-on infrastructure support.
+**Tools and systems Austin reports using in his current work:**
+- Microsoft Teams Admin Center
+- Logitech (Logi) conference-room systems
+- Microsoft Intune
+- Microsoft Entra ID
+- Active Directory (AD)
+- Microsoft 365
+- BeyondTrust/Bomgar remote support
+- NinjaOne
+- Microsoft Configuration Manager / SCCM
+- reMarkable devices
+- Microsoft Exchange
+- Freshservice ticketing
 
-### What to obtain before making quantified achievement claims
+These are hands-on familiarity/use claims, not blanket assertions that Austin is the sole administrator or architect for every system.
 
-Document a before/after example for one process, count the team size and direct responsibilities, clarify equipment-installation scope, and only publish outcomes that can be verified without exposing employer-confidential information.
+**Suggested summary:** Support enterprise desktop and device operations, resolve end-user technology issues, and work with Microsoft identity, endpoint, collaboration, remote support, and ticketing platforms across a mixed Windows/Apple environment. Collaborate with other IT teams on troubleshooting and service delivery.
 
----
+## Former leadership role: SelectQuote / SelectRx
 
-## Positioning
+**Role:** IT Service Desk Lead / Site Lead (past role).
+**Team size:** Three technicians.
 
-**Professional headline:** IT Leadership | Infrastructure & Operations | Cybersecurity
+Austin reports that he:
+- Assigned technician work and coordinated escalations.
+- Trained and mentored staff.
+- Conducted/participated in team meetings and performance-review activities.
+- Created or improved technical documentation.
+- Improved daily checklists and repeatable support workflows.
+- Improved printer ink and supply-ordering procedures.
+- Purchased computer peripherals and supplies through vendors.
 
-**Value proposition:** I lead technical teams, resolve complex IT challenges, and help organizations build reliable, secure, and manageable technology environments.
+**Previous technical environment:**
+- Google-based environment and administration/support tools.
+- ManageNow (product name as supplied; confirm official spelling if used prominently).
+- Active Directory with **four domains** (worked across them; do not imply sole ownership of the forest).
+- Five9 softphone platform (user originally typed "5nine").
+- PioneerRx pharmacy software.
 
-**Professional summary:** I'm Austin Dalton, an IT professional and technical team leader with experience across enterprise support, Microsoft 365, identity and access management, endpoint operations, networking, and cross-functional project coordination. I hold a Bachelor of Science in Cybersecurity and an Associate of Applied Science in Information Technology from Purdue University Global. I combine hands-on troubleshooting with leadership, communication, and a security-minded approach to solving operational problems.
+The user has not yet confirmed exact dates of the Gaylor and former service desk jobs. Omit dates until confirmed.
 
-## Home
+## Workplace case study — print monitoring & usage analysis
 
-### Hero
+**Public URL within portfolio:** `print-monitoring-case-study.html`
 
-**Austin Dalton**
+**Challenge:** Printing and ink supply ordering are recurring IT operations. Having more visibility into workstation-related print usage can support more informed review of demand.
 
-**Technical leadership. Practical solutions. Security-minded thinking.**
+**Personal contribution:**
+1. Installed a data collection agent (DCA) monitoring system.
+2. Created an Excel workbook to track which workstations were associated with higher ink usage.
+3. Had vendor purchasing experience with peripherals and supplies.
+4. Had helped improve associated ordering workflows.
 
-I lead technical teams, solve complex infrastructure and endpoint challenges, and help organizations keep the systems people rely on working effectively.
+**What this demonstrates:** Initiative, monitoring-tool setup, Excel tracking, operational reporting, IT purchasing context, and support-process improvement.
 
-My background spans enterprise IT operations, Microsoft 365, identity management, networking, cybersecurity education, software development, and a decade of project management experience.
+**Outcomes that are safe to claim:** Better visibility into higher-usage workstations and a more structured way to review ink needs. No verified cost savings, usage reduction, forecast improvement, or time-saving percentage has been provided.
 
-**Primary action:** View my work
+**Important cautions:** Do not imply a direct, automated DCA-to-Excel integration unless confirmed. Do not publish live corporate telemetry, user IDs, hostnames, printer details, vendor pricing, serial numbers, or confidential dashboard screenshots. Synthetic or redacted examples could be added later.
 
-**Secondary action:** View my resume
+## Physical infrastructure experience
 
-### Professional snapshot
+Austin reports direct work with setup/installations involving racks, servers, switches, firewalls, patch panels, wireless access points, and running Ethernet cabling. Describe this as hands-on installation/setup experience; it does not establish that he designed or fully configured production firewall and network architectures.
 
-- **Leadership experience:** IT Service Desk Lead / Site Lead — SelectQuote / SelectRx (confirm exact dates before publication)
-- **Education:** B.S. Cybersecurity and A.A.S. Information Technology — Purdue University Global
-- **Strengths:** Technical leadership, incident escalation, IT operations, stakeholder coordination, and security-minded problem solving
-- **Working knowledge:** Microsoft 365, Active Directory, Microsoft Entra ID, Intune/MDM, Windows, PowerShell, and networking
+## Prior project-management experience
 
-### Selected work
+Commercial development experience through EdgeRock Development, LLC beginning in 2015 includes project coordination, schedules, budgets, invoices, vendors, stakeholders, and managing operational priorities. Confirm exact employment end/current status before publishing date ranges.
 
-**Enterprise Network Architecture & Deployment Plan — Purdue capstone**
+## Education & development
 
-Designed a proposed network upgrade for the fictional PhotoHut business, covering logical and physical architecture, network segmentation, equipment planning, security controls, budgets, implementation considerations, and user training materials. This is a design and planning project, not a claimed production deployment.
+**Bachelor of Science in Cybersecurity** — Purdue University Global, completed.
+- Security risk, policies, incident response concepts, network protection, organizational security culture.
+- Cybersecurity capstone research covered human and organizational factors in cyber risk.
 
-**Organizational Security Culture & Cyber Risk — Cybersecurity capstone**
+**Associate of Applied Science in Information Technology** — Purdue University Global, completed.
+- IT infrastructure and enterprise network design planning.
+- PhotoHut capstone was an **academic proposed network design**, not a verified live deployment.
 
-Examined how leadership, employee behavior, security awareness, organizational policy, and accountability contribute to cyber risk. Explored practical ways organizations can establish stronger security habits and reduce preventable incidents.
+Do not publish unconfirmed graduation years or certification names; previous drafts contained conflicting degree-year information.
 
-**Personal Portfolio & Web Development — Independent project**
+**Programming:** HTML, CSS, JavaScript, Git/GitHub, VS Code, PowerShell experience, Java fundamentals, and independent programming/software projects. Distinguish developed personal applications from production apps.
 
-Built and maintain my personal portfolio using HTML, CSS, JavaScript, VS Code, and Git/GitHub. The site is an ongoing project for presenting technical work clearly and improving web-development and accessibility skills.
+## Portfolio case studies
 
-### Core competencies
+### Completed / existing evidence
 
-**IT leadership & service operations** — Lead and mentor team members, handle complex technical escalations, improve documentation, coordinate cross-functional issue resolution, and communicate clearly with technical and business stakeholders.
+1. **Print Monitoring & Usage Tracking** — professional contribution. DCA setup, Excel ink-usage tracking, purchasing workflow context. A published summary page is present; sanitized screenshots and measured metrics are not yet included.
+2. **PhotoHut Enterprise Network Design** — academic capstone. Network design, equipment, security planning, budgets, documentation. Supporting PDF currently linked.
+3. **Security Culture & Cyber Risk** — cybersecurity academic research. Content should be backed by the original capstone when available.
+4. **Personal Portfolio Website** — independent web-development project. GitHub repository: AustinDDev/MyWebsite.
 
-**Enterprise infrastructure & endpoint management** — Support Windows environments, Microsoft 365 applications and services, Active Directory, Microsoft Entra ID, identity and access workflows, endpoint deployments, Intune, and mobile device management.
+### Planned, not yet completed
 
-**Cybersecurity & network fundamentals** — Apply an academic foundation in cybersecurity to access control, MFA, least privilege, endpoint security, network troubleshooting, risk awareness, and security-conscious project planning.
+1. Enterprise IT Infrastructure & Identity Management
+2. Security Monitoring & Incident Response Lab
+3. IT Operations Automation & KPI Dashboard
+4. Enterprise Network Design & Security (expanded working simulation)
+5. AI-Powered IT Support Assistant
+6. Enterprise IT Asset Management Platform
 
-**Projects & development** — Bring experience in vendor coordination, budgets, timelines, risk tracking, SOPs, PowerShell, Git/GitHub, and web development to practical technology challenges.
+Cards for these remain explicitly labeled **Planned project**, with no implied live demos or fabricated impact metrics.
 
-### Professional approach
+## Suggested professional philosophy
 
-Technology works best when it supports people and business outcomes. Whether I'm leading an escalation, planning an infrastructure change, mentoring a teammate, or building software, I start by understanding the problem, communicating the plan, and following through with a solution that can be maintained.
+Technology works best when it supports people and business outcomes. Whether I'm resolving a desktop issue, coordinating work across IT teams, evaluating an operational process, or building software, I start by understanding the problem, communicating clearly, and documenting a maintainable solution.
 
-### Contact invitation
+## What to verify before public release
 
-I'm interested in connecting with professionals and organizations working in IT leadership, infrastructure, cybersecurity, and technical project delivery. If my background aligns with an opportunity or a problem you're solving, I'd welcome a conversation.
+- Current Gaylor Electric role start date and exact previous lead-role dates.
+- Whether the 4,000/1,780/2,500 environment totals may be published and attributed to the current employer, or should remain non-attributed.
+- Exact product spelling for **ManageNow**, **Five9**, and preferred terminology for Logitech meeting-room systems.
+- Whether formal performance reviews were conducted or participation was limited to input/discussions; avoid overstating managerial authority.
+- Exact Purdue Global graduation years and certificates to list.
+- Whether the resume PDF currently in the repository reflects Gaylor Electric and the most recent experience.
+- Any usable, permission-cleared, anonymized evidence and independently measured results for the printing case study.
+- Confirm the contact page links and employer-confidentiality limitations.
 
-## About
+## Positioning rules
 
-### Introduction
-
-I'm Austin Dalton, an IT operations professional and technical leader based in Westfield, Indiana. My work combines enterprise technology support, systems administration, cybersecurity education, project management, and mentoring.
-
-In an IT Service Desk Lead and Site Lead role at SelectQuote / SelectRx, I helped lead a three-person technical team, coordinated complex support work, improved daily operational checklists and documentation, and contributed to more organized printer supply-ordering workflows. The wider organization serves over 4,000 employees across approximately 1,780 Windows and 2,500 Apple devices. These fleet totals describe the broader IT environment, not my personal device ownership.
-
-My route into technology was not a straight line. Before moving into enterprise IT, I spent approximately a decade in commercial real estate project management. That experience taught me how to manage competing priorities, coordinate vendors, communicate with stakeholders, evaluate risks, and keep work moving toward defined outcomes. Those lessons are directly relevant to leading IT teams and delivering technology changes.
-
-I completed a Bachelor of Science in Cybersecurity and an Associate of Applied Science in Information Technology at Purdue University Global. The degrees reinforced my hands-on experience with a deeper understanding of infrastructure, risk, access control, network architecture, and the human side of information security.
-
-I continue developing my technical skills through personal software projects, hands-on experimentation, and new approaches to automation. Outside work, coaching has been another important part of my leadership experience; mentoring student athletes reinforced the value of preparation, accountability, and clear communication.
-
-### Experience
-
-**IT Service Desk Lead / Site Lead — SelectQuote / SelectRx**
-
-Helped lead a three-person technical team in enterprise IT operations. Supported complex escalations, cross-team coordination, documentation, daily operational checklists, and improvements to the ordering workflow for printer ink and supplies. Also contributed hands-on server-room equipment setup and Ethernet cabling.
-
-**Project Manager — EdgeRock Development, LLC | Beginning 2015**
-
-Coordinated commercial development activities and stakeholder communications, including vendors, project timelines, budgets, invoices, scheduling, and operational challenges. Balanced technical details and business priorities while supporting project planning, risk management, and delivery.
-
-**Middle School Wrestling Coach — Noblesville School System | 2021–2025**
-
-Mentored student athletes, organized practices and events, coordinated schedules, and reinforced safety, accountability, and team culture.
-
-### Education
-
-**Bachelor of Science in Cybersecurity — Purdue University Global**
-
-Coursework and capstone research emphasized security awareness, organizational culture, cyber risk, access control, and the relationship between people, process, and technical safeguards.
-
-**Associate of Applied Science in Information Technology — Purdue University Global**
-
-Studied IT infrastructure and network design. Completed an enterprise network architecture and implementation-planning capstone using project-management tools and network design documentation.
-
-### Technical toolkit
-
-**Leadership & delivery:** Team leadership, mentoring, incident and escalation management, ITSM processes, SLA awareness, SOP development, documentation, vendor and stakeholder coordination, project scheduling, Microsoft Project, Jira, ServiceNow, Smartsheet.
-
-**Identity, cloud & collaboration:** Microsoft 365, Exchange Online, Outlook, Teams, SharePoint, OneDrive, Active Directory, Microsoft Entra ID, IAM principles, MFA, RBAC/least privilege, SailPoint IdentityNow.
-
-**Endpoints & systems:** Windows 10/11, Windows Server, endpoint deployment and troubleshooting, Microsoft Intune, MDM, iPad deployment, patching and device lifecycle support, PowerShell.
-
-**Networking & security:** TCP/IP, DNS, DHCP, VLAN concepts, routing and switching, network architecture, Wireshark, endpoint security, security awareness and risk analysis.
-
-**Software & development tools:** HTML, CSS, JavaScript, Git, GitHub, VS Code, Java fundamentals, VirtualBox, AI-assisted development experimentation.
-
-## Projects
-
-### Enterprise Network Design — PhotoHut Capstone
-**Category:** Network Architecture / IT Project Planning  
-**Type:** Academic design proposal
-
-Developed a network upgrade proposal for a growing business, combining logical and physical design with budget and deployment planning. Work included IP addressing and subnetting, routing and switching considerations, network segmentation, equipment selection, server-room layout, security documentation, and user training materials.
-
-**What it demonstrates:** Systems thinking, infrastructure planning, security-aware design, and technical documentation.  
-**Supporting material:** capstonefinal.pdf
-
-### Organizational Security Culture & Cyber Risk
-**Category:** Cybersecurity / Research  
-**Type:** Bachelor’s capstone research
-
-Researched the role of organizational culture in information security and how leadership, employee training, policy, and everyday decisions influence organizational risk. Focused on practical security awareness and behavioral factors that complement technical controls.
-
-**What it demonstrates:** Cybersecurity analysis, risk-based thinking, security communication, and research.
-
-### Personal Portfolio Website
-**Category:** Web Development / Personal Project  
-**Type:** Ongoing independent development
-
-Created and maintain a personal website to communicate my experience and showcase technical work. Use HTML, CSS, JavaScript, Git, GitHub, and VS Code to organize content, refine responsive layouts, and improve the site over time.
-
-**What it demonstrates:** Front-end fundamentals, source control, iterative improvement, and technical communication.  
-**Repository:** https://github.com/AustinDDev/MyWebsite
-
-## Contact
-
-**Let's connect.**
-
-I'm open to conversations about IT leadership, systems and infrastructure, cybersecurity, technical project delivery, and professional opportunities. Explore my work on GitHub or connect with me on LinkedIn.
-
-- LinkedIn: https://www.linkedin.com/in/austinbdalton/
-- GitHub: https://github.com/AustinDDev
-- Resume: Austin_Dalton_Resume.pdf
-
-## Editorial guardrails
-
-- Present cybersecurity as a completed degree and a strong security-minded foundation; do not imply that Austin has held a dedicated cybersecurity engineer or security analyst role.
-- Do not publish unsupported percentages, cost savings, uptime figures, or other invented metrics.
-- Do not describe academic capstone designs as live production deployments.
-- Do not claim placeholder or unverified projects (for example, the previously listed Expense Tracker or Task Manager) as completed portfolio projects.
-- DaltonDev is a personal portfolio, not a commercial service provider. Keep Dalton Technology Group separate.
-- Do not list certifications not confirmed as earned.
+- Aim toward an **IT Director career path** through proven leadership exposure, technical breadth, project management, cybersecurity education, and operational improvement.
+- Do not claim Austin currently holds a management title or that he directly leads a team at Gaylor.
+- Don't merge past employer Google/PioneerRx tools into the current employer's Microsoft tool list.
+- Don't claim that organization-wide endpoint counts are personally administered by Austin.
+- Don't present proposed or simulated projects as production deployments.
+- Don't state unmeasured cost savings, incident reductions, uptime, or productivity increases.
+- DaltonDev is a personal professional portfolio, not Dalton Technology Group's commercial website.
