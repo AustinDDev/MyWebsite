@@ -2,6 +2,37 @@
 
 > Content-first editorial draft. This document is the authoritative copy proposal; design and styling are intentionally out of scope. All job descriptions are written as experience and responsibility statements, not unverified performance claims.
 
+## Confirmed enterprise context & career direction (October 2026)
+
+- **Career objective:** IT Director. Present Austin as an IT professional with leadership experience aspiring to this role, not as someone who already holds the title.
+- **Organization scale:** More than **4,000 employees**, approximately **1,780 Windows devices**, and approximately **2,500 Apple iPads and iPhones**. These are **organization-wide environment figures**, not a claim that Austin individually manages every employee or device.
+- **Leadership experience:** Previously discussed leading a three-person technical team. Recent wording indicates the lead role may have been in the past; do not assert the position is current without checking.
+- **Verified operational contributions:** Helped create/improve documentation, improve daily support checklists, and improve the workflow for ordering printer ink and supplies. No savings, resolution-time change, or volume metrics confirmed.
+- **Hands-on infrastructure:** Assisted with equipment setup in server rooms and ran Ethernet cabling. Do not imply Austin alone designed or installed an enterprise data center.
+- **Programming:** Independent programming and web-development experience, plus the projects already documented.
+- **Site positioning:** Enterprise IT Operations | Technical Leadership | Cybersecurity, with a clear IT Director career direction.
+- **Education-date caution:** Both Purdue Global degrees are completed. Confirm exact completion years against records before publishing degree dates; previous drafts were inconsistent.
+
+### Suggested homepage message
+
+**Enterprise-scale IT. Practical leadership. Security-minded thinking.**
+
+My experience spans IT operations in an organization serving more than 4,000 employees, technical team leadership, infrastructure support, and operational process improvements. I combine hands-on systems knowledge with a cybersecurity degree and a decade of project management experience.
+
+### Three grounded contribution stories
+
+**Operational documentation:** Contributed to technical documentation and improved daily checklists to establish clearer, repeatable support processes.
+
+**Supply workflow improvement:** Helped improve the process for ordering printer ink and supplies, addressing a recurring operational need.
+
+**Physical infrastructure:** Helped set up server-room equipment and run Ethernet cabling as part of hands-on infrastructure support.
+
+### What to obtain before making quantified achievement claims
+
+Document a before/after example for one process, count the team size and direct responsibilities, clarify equipment-installation scope, and only publish outcomes that can be verified without exposing employer-confidential information.
+
+---
+
 ## Positioning
 
 **Professional headline:** IT Leadership | Infrastructure & Operations | Cybersecurity
@@ -71,7 +102,7 @@ I'm interested in connecting with professionals and organizations working in IT 
 
 I'm Austin Dalton, an IT operations professional and technical leader based in Westfield, Indiana. My work combines enterprise technology support, systems administration, cybersecurity education, project management, and mentoring.
 
-Today I serve as a IT Service Desk Lead and Site Lead at SelectQuote / SelectRx. I support complex enterprise technology issues, help coordinate resolution across internal teams and vendors, and lead a team of three. I also mentor support colleagues, improve technical documentation, and focus on restoring productivity while strengthening repeatable processes.
+Today I serve as an IT Service Desk Lead and Site Lead at SelectQuote / SelectRx. I support complex enterprise technology issues, help coordinate resolution across internal teams and vendors, and lead a team of three. I also mentor support colleagues, improve technical documentation, and focus on restoring productivity while strengthening repeatable processes.
 
 My route into technology was not a straight line. Before moving into enterprise IT, I spent approximately a decade in commercial real estate project management. That experience taught me how to manage competing priorities, coordinate vendors, communicate with stakeholders, evaluate risks, and keep work moving toward defined outcomes. Those lessons are directly relevant to leading IT teams and delivering technology changes.
 
