@@ -20,7 +20,7 @@
 
 I lead technical teams, solve complex infrastructure and endpoint challenges, and help organizations keep the systems people rely on working effectively.
 
-My background spans enterprise IT operations, Microsoft 365, identity management, networking, cybersecurity education, software development, and more than a decade of project management experience.
+My background spans enterprise IT operations, Microsoft 365, identity management, networking, cybersecurity education, software development, and a decade of project management experience.
 
 **Primary action:** View my work
 
