@@ -42,7 +42,7 @@ Do not imply that using a system means sole ownership, engineering responsibilit
 **Position:** IT Service Desk Lead / Site Lead (past role).
 
 Reported contributions include:
-- Led a three-person team.
+- Led a service desk team.
 - Assigned technical work and managed/assisted escalations.
 - Trained and mentored other technicians.
 - Participated in team meetings and performance-review activities.
@@ -50,7 +50,7 @@ Reported contributions include:
 - Helped improve processes for ordering printer ink and supplies.
 - Purchased computer peripherals and supplies through vendors.
 
-**Previous technical environment:** Google-based tools, ManageNow (verify exact product branding), Active Directory across four domains (do not imply sole ownership), Five9 softphone, and PioneerRx pharmacy software.
+**Previous technical environment:** Google-based tools, ManageNow (verify exact product branding), Active Directory (do not imply sole ownership), Five9 softphone, and PioneerRx pharmacy software.
 
 Confirm exact past-role dates and what parts of performance-review activities Austin personally conducted before publishing additional management claims.
 
