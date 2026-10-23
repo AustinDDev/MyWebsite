@@ -5,3 +5,29 @@
 @media(max-width:700px){.printer-hero{padding-top:25px}.printer-hero-grid{grid-template-columns:1fr}.printer-hero h1{font-size:clamp(37px,8vw,54px);letter-spacing:-1.8px}.printer-subtitle{font-size:18px}.printer-art{max-width:430px;width:100%;justify-self:center}.printer-layout{grid-template-columns:1fr;gap:10px}.printer-toc{position:static}.printer-toc nav{grid-template-columns:1fr 1fr;border-top:1px solid #333d39;padding:25px 0}.printer-toc .section-kicker{grid-column:1/-1}.printer-meta{gap:22px 15px}.printer-meta dd{font-size:12px}.printer-section{padding:30px 0;scroll-margin-top:125px}.implementation-grid{grid-template-columns:1fr}.outside-coverage{display:grid;gap:8px}.workflow-figure{padding:18px}.volume-chart{padding:18px}.volume-chart li{grid-template-columns:72px minmax(0,1fr) 80px;gap:8px;font-size:9px}.skills-list>div{grid-template-columns:1fr;gap:9px}}
 @media(max-width:400px){.monitoring-flow{grid-template-columns:1fr}.monitoring-flow li:not(:last-child)::after{content:'↓';display:block;position:absolute;top:auto;bottom:-29px;left:0;right:0}.printer-meta{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.printer-study{scroll-behavior:auto}.printer-study *{animation:none!important;transition:none!important}}
+/* HP reference dashboard: fictional readings, public manufacturer specifications. */
+.printer-study .dashboard-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:25px 0}
+.dashboard-summary>div{padding:18px;border:1px solid #333d39;background:#1b2220;display:grid;gap:8px}
+.dashboard-summary span{font:10px monospace;color:#b6c2ba;text-transform:uppercase;letter-spacing:.6px}
+.dashboard-summary strong{font-size:13px;line-height:1.5;font-weight:500}
+.workbook-header{display:flex;align-items:center;gap:16px;background:#203f2b;border:1px solid #456c52;padding:18px 22px}
+.workbook-header>span{font-size:30px;color:#79d6a0}.workbook-header>div{display:grid;gap:4px}
+.workbook-header strong{font-size:17px;font-weight:500}.workbook-header div>span{font:9px monospace;letter-spacing:1px;color:#b6c2ba}
+.printer-study .tracker-scroll table{min-width:1120px}.printer-study .tracker-scroll td{vertical-align:top}
+.printer-study .tracker-scroll tbody th{white-space:normal;min-width:170px;line-height:1.7}
+.tracker-scroll thead th{min-width:115px}.tracker-scroll thead th:nth-child(5){min-width:170px}
+.printer-study .cell-note{display:block;font:10px/1.6 'Segoe UI',Arial,sans-serif;color:#b6c2ba;margin-top:6px}
+.printer-study .within-range,.printer-study .within-range strong{color:#79d6a0}
+.printer-study .over-range,.printer-study .over-range strong{color:#f4c17a}
+.usage-meter{height:9px;background:#34413a;position:relative;margin-top:10px;min-width:135px}
+.usage-meter>span{display:block;width:var(--fill);height:100%;background:#79d6a0}
+.over-range .usage-meter>span{background:#f4c17a}
+.usage-meter::after{content:'';position:absolute;left:66.6667%;top:-3px;height:15px;width:2px;background:#f3f5f3}
+.dashboard-legend{display:flex;flex-wrap:wrap;gap:12px 20px;font-size:11px;padding:18px 0;color:#b6c2ba}
+.printer-study .monitoring-flow{grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;counter-reset:workflow}
+.printer-study .flow-icon{font-size:18px}.printer-study .monitoring-flow h3{overflow-wrap:anywhere;font-size:12px}
+.printer-study .monitoring-flow li:not(:last-child)::after{right:-15px}
+.hp-sources{border-top:1px solid #333d39;margin-top:30px;padding-top:15px}
+.hp-sources p,.hp-sources li{font-size:12px}.hp-sources ul{padding-left:20px}.hp-sources li{padding:7px 0}.hp-sources a{text-decoration:underline;text-underline-offset:4px;text-decoration-color:#4b7b5d}
+@media(max-width:1100px){.printer-study .monitoring-flow{grid-template-columns:1fr}.printer-study .monitoring-flow li{display:grid;grid-template-columns:52px 1fr;gap:0 18px;text-align:left;padding:15px;border:1px solid #333d39}.printer-study .monitoring-flow .flow-icon{grid-row:1/3}.printer-study .monitoring-flow h3{margin:2px 0 5px}.printer-study .monitoring-flow p{margin:0}.printer-study .monitoring-flow li:not(:last-child)::after{content:'↓';display:block;top:auto;bottom:-24px;left:22px;right:auto;font-size:18px}.printer-study .dashboard-summary{grid-template-columns:1fr}}
+@media(max-width:700px){.workbook-header{padding:16px}.workbook-header div>span{font-size:8px;line-height:1.6}.printer-study .volume-chart li{grid-template-columns:80px minmax(0,1fr) 86px}.printer-study .tracker-scroll{overscroll-behavior-x:contain}}

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Printer Monitoring &amp; Usage Analytics: supported network printer monitoring, manual Excel readings, and operational insights.">
-<meta name="theme-color" content="#0B0F0D">
+<meta name="theme-color" content="#101411">
 <title>Printer Monitoring &amp; Usage Analytics | Austin Dalton</title>
 <link rel="stylesheet" href="redesign.css">
 <link rel="stylesheet" href="printer-case-study.css">
@@ -54,7 +54,7 @@
 </section>
 <div class="wrap printer-layout">
 <aside class="printer-toc">
-<nav aria-label="Case study sections"><span class="section-kicker">In this case study</span><a href="#overview">Overview</a><a href="#challenge">Challenge</a><a href="#approach">My Approach</a><a href="#implementation">Technical Implementation</a><a href="#workflow">Monitoring Workflow</a><a href="#tracker">Example Tracker</a><a href="#results">Results & Impact</a><a href="#lessons">Lessons Learned</a><a href="#technologies">Technologies & Skills</a>
+<nav aria-label="Case study sections"><span class="section-kicker">In this case study</span><a href="#overview">Overview</a><a href="#challenge">Challenge</a><a href="#approach">My Approach</a><a href="#implementation">Technical Implementation</a><a href="#workflow">Monitoring Workflow</a><a href="#tracker">Printer Usage Dashboard</a><a href="#results">Results & Impact</a><a href="#lessons">Lessons Learned</a><a href="#technologies">Technologies & Skills</a>
 </nav>
 </aside>
 <div class="printer-content">
@@ -70,7 +70,7 @@
 <section class="printer-section" id="challenge">
 <p class="section-kicker">02 / Challenge</p>
 <h2>Investigating unexpected supply consumption.</h2>
-<p>Ink and toner were being consumed faster than expected. There was insufficient visibility into print volumes and maintenance needs to understand where activity was concentrated and which indicators warranted closer review.</p>
+<p>Printer consumables were being used faster than expected. The organization needed better visibility into printing activity, consumable usage, and printer maintenance indicators.</p>
 <p>The investigation needed to distinguish printed-page activity from consumable estimates. Page counts do not directly measure ink or toner consumed by individual workstations.</p>
 </section>
 <section class="printer-section" id="approach">
@@ -110,21 +110,25 @@
 <h2>From supported devices to useful context.</h2>
 <figure class="workflow-figure">
 <ol class="monitoring-flow">
-<li><span class="flow-icon" aria-hidden="true">▤</span>
-<h3>Network printers</h3>
+<li><span class="flow-icon" aria-hidden="true">01</span>
+<h3>Network Printers</h3>
 <p>Supported network-connected devices</p>
 </li>
-<li><span class="flow-icon" aria-hidden="true">◎</span>
+<li><span class="flow-icon" aria-hidden="true">02</span>
 <h3>FLEX Technology DCA</h3>
 <p>Vendor-provided monitoring</p>
 </li>
-<li><span class="flow-icon" aria-hidden="true">▦</span>
-<h3>Manual Excel readings</h3>
-<p>Human data entry &amp; analysis</p>
+<li><span class="flow-icon" aria-hidden="true">03</span>
+<h3>Manual Data Collection</h3>
+<p>Human review &amp; transcription</p>
 </li>
-<li><span class="flow-icon" aria-hidden="true">↗</span>
-<h3>Operational insights</h3>
-<p>Usage &amp; maintenance review</p>
+<li><span class="flow-icon" aria-hidden="true">04</span>
+<h3>Microsoft Excel Tracker</h3>
+<p>Structured manual records</p>
+</li>
+<li><span class="flow-icon" aria-hidden="true">05</span>
+<h3>Usage Analysis &amp; Maintenance Visibility</h3>
+<p>Review available indicators</p>
 </li>
 </ol>
 <div class="outside-coverage"><strong>Locally connected printers</strong><span>Outside DCA coverage — no connection to the monitored flow</span>
@@ -133,96 +137,170 @@
 </figure>
 </section>
 <section class="printer-section" id="tracker">
-<p class="section-kicker">06 / Example tracker</p>
-<h2>A readable record for better questions.</h2>
-<div class="demo-banner"><strong>DEMONSTRATION DATA — ENTIRELY FICTIONAL</strong>
-<p>Every device ID, reading, percentage, threshold, and status below is invented for this portfolio example. These rows do not represent an employer’s devices, inventory size, locations, or actual usage.</p>
+<p class="section-kicker">06 / Printer usage dashboard</p>
+<h2>Printing activity, in perspective.</h2>
+<div class="demo-banner"><strong>FICTIONAL DEMONSTRATION DATA — NOT EMPLOYER DATA</strong>
+<p>Monthly page counts, toner estimates, and illustrative usage flags are fictional. The four model examples do not represent an employer’s inventory or equipment. Recommended volumes and maximum duty cycles are published HP specifications, linked below.</p>
 </div>
-<p id="tracker-help" class="caption">Scroll horizontally to view all columns on smaller screens. Toner levels are illustrative reported estimates, not measured consumption. Each row represents the same fictional one-month period.</p>
-<div class="tracker-scroll" role="region" aria-label="Fictional printer usage tracker" aria-describedby="tracker-help" tabindex="0">
-<table><caption>Fictional Excel-style usage &amp; maintenance tracker · DEMONSTRATION DATA</caption>
+<div class="dashboard-summary">
+<div><span>Reporting period</span><strong>One fictional month</strong>
+</div>
+<div><span>Usage calculation</span><strong>Pages ÷ recommended upper limit</strong>
+</div>
+<div><span>Coverage</span><strong>Supported network printers only</strong>
+</div>
+</div>
+<div class="workbook-header"><span aria-hidden="true">▦</span>
+<div><strong>Printer Usage Review</strong><span>EXCEL-INSPIRED DEMONSTRATION / MANUAL READINGS</span>
+</div>
+</div>
+<p id="tracker-help" class="caption">On smaller screens, focus the table and scroll horizontally. Usage bars use a 0–150% scale; the marker indicates 100% of the recommended upper limit. Toner percentages are fictional remaining-level estimates, not measured consumption.</p>
+<div class="tracker-scroll" role="region" aria-label="Printer usage dashboard, fictional demonstration readings" aria-describedby="tracker-help" tabindex="0">
+<table><caption>DEMONSTRATION DATA · Monthly printer usage and available maintenance information</caption>
 <thead>
 <tr>
-<th scope="col">Sample device ID</th>
-<th scope="col">Monthly pages</th>
-<th scope="col">Toner level</th>
-<th scope="col">Fuser page count</th>
-<th scope="col">Demo maintenance threshold</th>
-<th scope="col">Status</th>
+<th scope="col">Printer Model</th>
+<th scope="col">Monthly Printed Pages</th>
+<th scope="col">Recommended Monthly Volume</th>
+<th scope="col">Maximum Monthly Duty Cycle</th>
+<th scope="col">Usage Percentage</th>
+<th scope="col">Black Toner Remaining</th>
+<th scope="col">Fuser/Maintenance Page Count</th>
+<th scope="col">Maintenance Status</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<th scope="row">DEMO-A01</th>
-<td>2,400</td>
-<td>68%</td>
-<td>42,000</td>
-<td>100,000</td>
-<td><span class="tracker-status routine">Routine review</span>
-</td>
-</tr>
-<tr>
-<th scope="row">DEMO-B02</th>
-<td>7,800</td>
-<td>24%</td>
-<td>86,000</td>
-<td>100,000</td>
-<td><span class="tracker-status monitor">Monitor</span>
-</td>
-</tr>
-<tr>
-<th scope="row">DEMO-C03</th>
-<td>4,600</td>
-<td>41%</td>
-<td>104,000</td>
-<td>120,000</td>
-<td><span class="tracker-status monitor">Monitor</span>
-</td>
-</tr>
-<tr>
-<th scope="row">DEMO-D04</th>
+<tr data-model="M507">
+<th scope="row"><a href="https://www.hp.com/gb-en/shop/products/printers/hp-laserjet-enterprise-m507dn-1pv87a-b19">HP LaserJet Enterprise M507 ↗</a>
+</th>
 <td>9,200</td>
-<td>12%</td>
-<td>151,000</td>
-<td>150,000</td>
-<td><span class="tracker-status review">Review maintenance</span>
+<td>2,000–7,500<span class="cell-note">pages / month</span>
+</td>
+<td>150,000<span class="cell-note">maximum pages / month</span>
+</td>
+<td class="over-range"><strong>122.7%</strong>
+<div class="usage-meter" aria-hidden="true"><span style="--fill:81.778%"></span>
+</div><span class="cell-note">Above recommended range</span>
+</td>
+<td><strong>18%</strong><span class="cell-note">Fictional estimate</span>
+</td>
+<td>Unavailable<span class="cell-note">No confirmed counter reading</span>
+</td>
+<td><span class="tracker-status">Not assessed</span>
+</td>
+</tr>
+<tr data-model="E40040dn">
+<th scope="row"><a href="https://support.hp.com/au-en/product/product-specs/hp-laserjet-managed-e40040-series/model/22732212">HP LaserJet Managed E40040dn ↗</a>
+</th>
+<td>5,100</td>
+<td>1,500–7,500<span class="cell-note">pages / month</span>
+</td>
+<td>120,000<span class="cell-note">maximum pages / month</span>
+</td>
+<td class="within-range"><strong>68.0%</strong>
+<div class="usage-meter" aria-hidden="true"><span style="--fill:45.333%"></span>
+</div><span class="cell-note">Within recommended range</span>
+</td>
+<td><strong>57%</strong><span class="cell-note">Fictional estimate</span>
+</td>
+<td>Unavailable<span class="cell-note">No confirmed counter reading</span>
+</td>
+<td><span class="tracker-status">Not assessed</span>
+</td>
+</tr>
+<tr data-model="M404">
+<th scope="row"><a href="https://www.hp.com/us-en/shop/pdp/hp-laserjet-pro-m404dn">HP LaserJet Pro M404 ↗</a>
+</th>
+<td>3,200</td>
+<td>750–4,000<span class="cell-note">pages / month</span>
+</td>
+<td>80,000<span class="cell-note">maximum pages / month</span>
+</td>
+<td class="within-range"><strong>80.0%</strong>
+<div class="usage-meter" aria-hidden="true"><span style="--fill:53.333%"></span>
+</div><span class="cell-note">Within recommended range</span>
+</td>
+<td><strong>36%</strong><span class="cell-note">Fictional estimate</span>
+</td>
+<td>Unavailable<span class="cell-note">No confirmed counter reading</span>
+</td>
+<td><span class="tracker-status">Not assessed</span>
+</td>
+</tr>
+<tr data-model="E60155">
+<th scope="row"><a href="https://support.hp.com/ie-en/product/product-specs/hp-laserjet-managed-e60155-series/20008695">HP LaserJet Managed E60155 ↗</a>
+</th>
+<td>18,000</td>
+<td>5,000–30,000<span class="cell-note">pages / month</span>
+</td>
+<td>375,000<span class="cell-note">maximum pages / month</span>
+</td>
+<td class="within-range"><strong>60.0%</strong>
+<div class="usage-meter" aria-hidden="true"><span style="--fill:40.000%"></span>
+</div><span class="cell-note">Within recommended range</span>
+</td>
+<td><strong>72%</strong><span class="cell-note">Fictional estimate</span>
+</td>
+<td>Unavailable<span class="cell-note">No confirmed counter reading</span>
+</td>
+<td><span class="tracker-status">Check supported parts report</span>
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="caption">Illustrative status rules: review maintenance at or above the fictional fuser threshold; monitor at 80% of that threshold or a toner estimate of 25% or below; otherwise routine review. Real thresholds depend on device and vendor guidance. This is a design demonstration, not the original workbook.</p>
+<div class="dashboard-legend"><span class="within-range">● Within recommended range</span><span class="over-range">▲ Above recommended range</span><span>Maintenance unavailable ≠ healthy</span>
+</div>
+<p class="caption"><strong>Formula:</strong> monthly printed pages ÷ recommended monthly upper limit × 100. For example, M507: 9,200 ÷ 7,500 × 100 = 122.7%. Maximum duty cycle is a separate specification, not the denominator or a sustained operating target. Values are rounded to one decimal place.</p>
+<div class="scope-note"><strong>Maintenance reporting has its own limits.</strong>
+<p>No fuser counter or replacement threshold is assumed for these examples. Unavailable means the required reading or support has not been established, not that a model lacks a fuser. The E60155 user guide describes reviewing replaceable maintenance-part status where applicable; that does not establish DCA counter availability. Review supported readings and vendor guidance before assessing maintenance.</p><a class="text-link" href="https://h10032.www1.hp.com/ctg/Manual/c06198050.pdf">HP E60155 user guide · printed pages 115–116 ↗</a>
+</div>
 <figure class="volume-chart">
-<figcaption><strong>Monthly page-volume comparison</strong><span>DEMONSTRATION DATA · SAME FICTIONAL MONTH</span>
+<figcaption><strong>Monthly printed pages by model</strong><span>FICTIONAL DEMONSTRATION DATA / ONE MONTH</span>
 </figcaption>
 <ul>
-<li><span>DEMO-A01</span>
-<div class="volume-track"><span style="--volume:24%"></span>
-</div><strong>2,400 pages</strong>
-</li>
-<li><span>DEMO-B02</span>
-<div class="volume-track"><span style="--volume:78%"></span>
-</div><strong>7,800 pages</strong>
-</li>
-<li><span>DEMO-C03</span>
-<div class="volume-track"><span style="--volume:46%"></span>
-</div><strong>4,600 pages</strong>
-</li>
-<li><span>DEMO-D04</span>
-<div class="volume-track"><span style="--volume:92%"></span>
+<li><span>M507</span>
+<div class="volume-track" aria-hidden="true"><span style="--volume:46.0%"></span>
 </div><strong>9,200 pages</strong>
 </li>
+<li><span>E40040dn</span>
+<div class="volume-track" aria-hidden="true"><span style="--volume:25.5%"></span>
+</div><strong>5,100 pages</strong>
+</li>
+<li><span>M404</span>
+<div class="volume-track" aria-hidden="true"><span style="--volume:16.0%"></span>
+</div><strong>3,200 pages</strong>
+</li>
+<li><span>E60155</span>
+<div class="volume-track" aria-hidden="true"><span style="--volume:90.0%"></span>
+</div><strong>18,000 pages</strong>
+</li>
 </ul>
-<p class="caption">Scale: 0–10,000 pages. Values match the fictional table above.</p>
+<p class="caption">Shared scale: 0–20,000 pages. Bars compare fictional page counts, not model capacity or maintenance health. Use the recommended-volume column to interpret each model’s workload.</p>
 </figure>
+<div class="hp-sources">
+<h3>Official HP specification sources</h3>
+<p>Public product specifications, verified October 23, 2026. M507 and M404 family values are corroborated by the linked dn variant pages. These are reference models, not a disclosure of workplace equipment.</p>
+<ul>
+<li><a href="https://www.hp.com/gb-en/shop/products/printers/hp-laserjet-enterprise-m507dn-1pv87a-b19">HP LaserJet Enterprise M507 — 2,000–7,500 recommended; 150,000 maximum monthly pages ↗</a>
+</li>
+<li><a href="https://support.hp.com/au-en/product/product-specs/hp-laserjet-managed-e40040-series/model/22732212">HP LaserJet Managed E40040dn — 1,500–7,500 recommended; 120,000 maximum monthly pages ↗</a>
+</li>
+<li><a href="https://www.hp.com/us-en/shop/pdp/hp-laserjet-pro-m404dn">HP LaserJet Pro M404 — 750–4,000 recommended; 80,000 maximum monthly pages ↗</a>
+</li>
+<li><a href="https://support.hp.com/ie-en/product/product-specs/hp-laserjet-managed-e60155-series/20008695">HP LaserJet Managed E60155 — 5,000–30,000 recommended; 375,000 maximum monthly pages ↗</a>
+</li>
+</ul>
+</div>
 </section>
 <section class="printer-section" id="results">
 <p class="section-kicker">07 / Results & impact</p>
 <h2>Operational visibility, grounded in the work.</h2>
 <ul class="results-list">
-<li>Identified high-volume printing activity using available usage data.</li>
-<li>Established a structured process for manually recording and reviewing usage readings.</li>
-<li>Improved visibility into supported printer maintenance indicators, including fuser page counts and maintenance thresholds.</li>
+<li>Identified high-volume printing activity.</li>
+<li>Established structured Excel usage tracking.</li>
+<li>Improved visibility into supported printer activity.</li>
+<li>Added visibility into available fuser maintenance indicators.</li>
 </ul>
 <p>No verified cost savings, percentage reductions, reduced consumable consumption, or reduction in maintenance incidents are claimed. The fictional demonstration above is not evidence of project outcomes.</p>
 </section>
