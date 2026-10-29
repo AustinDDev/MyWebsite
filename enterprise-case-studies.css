@@ -1,0 +1,42 @@
+/* Shared visual components for professional operations and migration studies. */
+.enterprise-study .printer-hero h1{font-size:clamp(38px,4.3vw,59px);line-height:1.1;letter-spacing:-2px;overflow-wrap:break-word}
+.enterprise-study .printer-subtitle{font-size:18px}
+.enterprise-art{background:#17211b;background-image:linear-gradient(#2a403233 1px,transparent 1px),linear-gradient(90deg,#2a403233 1px,transparent 1px);background-size:24px 24px}
+.enterprise-art>small{display:block;margin-top:12px;font:8px/1.6 monospace;text-align:center;letter-spacing:.5px;color:#b6c2ba}
+.workflow-panel{margin:25px 0 0;padding:24px;background:#151e18;border:1px solid #333d39}
+.workflow-panel>figcaption{display:grid;gap:7px;padding-bottom:22px;border-bottom:1px solid #333d39;margin-bottom:22px}
+.workflow-panel>figcaption>strong{font-size:16px;font-weight:500;line-height:1.4}
+.workflow-panel>figcaption>span{font:9px/1.7 monospace;color:#79d6a0;letter-spacing:1px}
+.workflow-panel>.caption{font-size:11px;margin-bottom:0}
+.enterprise-steps{list-style:none;display:grid;gap:0;padding:0;margin:0;counter-reset:enterprise-step}
+.enterprise-steps>li{display:grid;grid-template-columns:29px minmax(0,1fr);gap:12px;align-items:start;padding:17px 0;border-bottom:1px solid #333d39;font-size:13px;line-height:1.6}
+.enterprise-steps>li:last-child{border-bottom:0}.enterprise-steps>li>.step-number{color:#79d6a0;font:10px/1.7 monospace;padding-top:2px}
+.shift-start{display:flex;gap:14px;align-items:center;padding:18px;border:1px solid #4d775b;background:#213c29;margin-bottom:10px}.shift-start>span{font-size:23px;color:#79d6a0}.shift-start strong{font-size:16px;font-weight:500}
+.daily-steps>li{position:relative;padding-left:12px;border-left:1px solid #4d775b;margin-left:15px}.daily-steps>li::before{content:'';position:absolute;left:-4px;top:24px;width:7px;height:7px;border-radius:50%;background:#79d6a0}
+.triage-entry{display:grid;justify-items:center;gap:26px;margin-bottom:28px}
+.triage-entry>span,.triage-entry>strong{position:relative;width:100%;max-width:430px;border:1px solid #4d775b;background:#1b2920;padding:16px;text-align:center;font-size:13px;font-weight:500;color:#f3f5f3}
+.triage-entry>span::after{content:'↓';position:absolute;bottom:-28px;left:50%;transform:translateX(-50%);color:#79d6a0;font-size:18px}
+.triage-entry>strong{border-color:#79d6a0;background:#243c2c}
+.triage-branches{display:grid;grid-template-columns:1fr 1fr;gap:18px;border-top:1px solid #4d775b;padding-top:20px}
+.triage-branches>section{position:relative;min-width:0;padding:20px;background:#101411;border:1px solid #333d39}
+.triage-branches>section::before{content:'';position:absolute;top:-21px;left:50%;height:20px;border-left:1px solid #4d775b}
+.triage-branches h3{margin:0 0 12px;color:#79d6a0;font:13px/1.6 monospace}
+.triage-branches .enterprise-steps>li{font-size:12px;grid-template-columns:20px 1fr;gap:8px;padding:12px 0}
+.featured-incident{padding:25px;background:#1b2220;border:1px solid #333d39;border-top:3px solid #79d6a0}
+.featured-incident .incident-label{font:10px/1.6 monospace;color:#79d6a0;letter-spacing:1.2px;margin-top:0}
+.featured-incident h3{margin:24px 0 8px}.featured-incident p{font-size:14px}
+.label-timeline{grid-template-columns:1fr 1fr;gap:0 22px}.label-timeline>li{min-width:0}
+.scope-banner{padding:22px;border:1px solid #4d775b;background:#1b2d21;margin:24px 0}.scope-banner>strong{font-size:17px;font-weight:500}.scope-banner p{font-size:12px;margin-bottom:0}
+.device-breakdown{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin:0}
+.device-breakdown>div{display:flex;flex-direction:column;padding:24px;background:#1b2220;border:1px solid #333d39;min-width:0}
+.device-breakdown dt{font:10px/1.6 monospace;letter-spacing:.8px;color:#b6c2ba;min-height:34px;text-transform:uppercase}
+.device-breakdown dd{font:500 clamp(38px,5vw,58px)/1.2 'Segoe UI',Arial,sans-serif;letter-spacing:-2px;margin:15px 0 0;color:#79d6a0;font-variant-numeric:tabular-nums}
+.scope-total{display:flex;flex-wrap:wrap;gap:10px 25px;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid #333d39}.scope-total>span{font-size:12px;color:#b6c2ba}.scope-total>strong{font-size:21px;font-weight:500}
+.execution-paths{display:grid;gap:15px}.execution-paths>article{padding:23px;border:1px solid #333d39;background:#1b2220}.execution-paths p{font-size:14px;margin-bottom:0}
+.migration-timeline{grid-template-columns:1fr;gap:18px}
+.migration-timeline>li{position:relative;padding:18px;background:#1b2920;border:1px solid #4d775b;align-items:center}
+.migration-timeline>li:not(:last-child)::after{content:'↓';position:absolute;bottom:-23px;left:50%;color:#79d6a0}
+.responsibility-tags{padding:10px 0 20px}.responsibility-tags>span{font-size:11px;padding:7px 11px}
+@media(max-width:1050px){.enterprise-study .printer-hero-grid{grid-template-columns:1fr}.enterprise-art{max-width:450px;justify-self:center;width:100%}}
+@media(max-width:700px){.enterprise-study .printer-hero h1{font-size:clamp(35px,8vw,48px);letter-spacing:-1.4px}.workflow-panel{padding:18px}.triage-branches{grid-template-columns:1fr;gap:22px}.triage-branches>section{padding:18px}.label-timeline{grid-template-columns:1fr}.featured-incident{padding:20px}.device-breakdown{grid-template-columns:1fr}.device-breakdown>div{flex-direction:row;justify-content:space-between;align-items:center;padding:20px}.device-breakdown dt{min-height:0;font-size:11px;max-width:65%}.device-breakdown dd{margin:0;font-size:42px}.scope-total{align-items:start;flex-direction:column}.execution-paths>article{padding:20px}}
+@media(prefers-reduced-motion:reduce){.enterprise-study *{transition:none!important;animation:none!important}}

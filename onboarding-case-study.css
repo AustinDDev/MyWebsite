@@ -1,0 +1,30 @@
+/* Case Study 02 additions. Base case-study components are reused unchanged. */
+.onboarding-study .printer-hero-grid{grid-template-columns:1.5fr 1fr}
+.onboarding-study .printer-hero h1{font-size:clamp(38px,4.1vw,57px);line-height:1.12;letter-spacing:-2px;overflow-wrap:break-word}
+.onboarding-study .printer-subtitle{font-size:18px}
+.endpoint-art{background:#19231d;background-image:radial-gradient(#333d39 1px,transparent 1px);background-size:20px 20px}
+.deployment-diagram{margin:0;padding:26px;background:#151c17;border:1px solid #333d39}
+.deployment-diagram>figcaption{display:grid;gap:7px;margin-bottom:28px}
+.deployment-diagram>figcaption>strong{font-size:16px;font-weight:500}
+.deployment-diagram>figcaption>span{font:9px/1.6 monospace;letter-spacing:1px;color:#79d6a0}
+.deployment-diagram ol{list-style:none;padding:0;margin:0;display:grid;gap:26px}
+.deployment-diagram li{position:relative;border:1px solid #45634e;background:#1b2920;padding:16px;font-size:13px;color:#f3f5f3;text-align:center;line-height:1.5}
+.deployment-diagram li:not(:last-child)::after{content:'↓';position:absolute;left:50%;bottom:-26px;transform:translateX(-50%);color:#79d6a0;font-size:18px}
+.deployment-entry{max-width:440px;margin-inline:auto!important}
+.branch-label{position:relative;text-align:center;color:#b6c2ba;font:10px/1.6 monospace;padding:30px 10px 18px}
+.branch-label::before{content:'';position:absolute;top:0;left:50%;height:22px;border-left:1px solid #79d6a0}
+.deployment-branches{display:grid;grid-template-columns:1fr 1fr;gap:20px;border-top:1px solid #45634e;border-bottom:1px solid #45634e;padding:20px 0}
+.deployment-branches>section{min-width:0;padding:18px;background:#101411;border:1px solid #333d39}
+.deployment-branches h3{margin:0 0 20px;color:#79d6a0;font:12px monospace;text-transform:uppercase;letter-spacing:1px}
+.deployment-branches li>span{display:block;font-size:10px;color:#b6c2ba;margin-top:4px}
+.deployment-exit{position:relative;max-width:440px;margin:30px auto 0!important}
+.deployment-exit::before{content:'↓';position:absolute;top:-29px;left:50%;transform:translateX(-50%);color:#79d6a0}
+.deployment-diagram>.caption{font-size:11px;margin:24px 0 0}
+.troubleshooting-example{border:1px solid #333d39;background:#1b2220}
+.troubleshooting-example>div{padding:24px;border-bottom:1px solid #333d39}
+.troubleshooting-example>div:last-child{border-bottom:0}
+.troubleshooting-example p{margin-bottom:0;font-size:14px}
+.onboarding-study .lesson-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:850px){.onboarding-study .printer-hero-grid{grid-template-columns:1fr}.onboarding-study .endpoint-art{width:100%;max-width:440px;justify-self:center}.onboarding-study .printer-meta{grid-template-columns:1fr 1fr}}
+@media(max-width:700px){.onboarding-study .printer-hero h1{font-size:clamp(36px,8vw,50px);letter-spacing:-1.5px}.deployment-diagram{padding:18px}.deployment-branches{grid-template-columns:1fr}.deployment-branches>section{padding:16px}.onboarding-study .lesson-grid{grid-template-columns:1fr}.troubleshooting-example>div{padding:20px}}
+@media(prefers-reduced-motion:reduce){.onboarding-study *{animation:none!important;transition:none!important}}

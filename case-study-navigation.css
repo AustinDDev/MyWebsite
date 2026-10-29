@@ -1,0 +1,10 @@
+/* Additive sibling navigation shared by all five case studies. */
+.case-study-navigation{display:flex;flex-wrap:wrap;gap:18px;padding-top:28px;padding-bottom:55px;border-top:1px solid #333d39}
+.case-study-navigation>a{flex:1 1 220px;display:grid;align-content:start;gap:10px;padding:22px;border:1px solid #333d39;background:#1b2220;min-width:0;transition:border-color .2s}
+.case-study-navigation>a:hover{border-color:#79d6a0;color:#f3f5f3}
+.case-study-navigation>a:focus-visible{outline:3px solid #79d6a0;outline-offset:5px}
+.case-study-navigation>a>span{font:10px/1.6 monospace;letter-spacing:.7px;color:#79d6a0;text-transform:uppercase}
+.case-study-navigation>a>strong{font-size:15px;line-height:1.5;font-weight:500;color:#f3f5f3;overflow-wrap:break-word}
+.case-study-navigation>.case-index-link{flex:0 1 190px}
+@media(max-width:700px){.case-study-navigation{flex-direction:column;padding-bottom:40px}.case-study-navigation>a,.case-study-navigation>.case-index-link{flex:auto;width:100%;padding:19px}}
+@media(prefers-reduced-motion:reduce){.case-study-navigation>a{transition:none}}

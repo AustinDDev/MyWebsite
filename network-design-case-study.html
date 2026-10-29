@@ -1,1 +1,392 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Austin Dalton — enterprise IT operations, infrastructure, and cybersecurity education."><meta name="theme-color" content="#0B0F0D"><title>A network designed  with the whole picture.  | Austin Dalton</title><link rel="stylesheet" href="redesign.css"><script src="main.js" defer></script></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="wrap header-inner"><a class="wordmark" href="index.html"><span class="brand-icon">a/d</span> Austin Dalton<span class="dot">.</span></a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="projects.html">Work</a><a href="aboutme.html">About</a><a href="contact.html">Let’s connect ↗</a></nav></div></header><main id="main"><section class="section wrap case-hero"><a class="text-link" href="projects.html">← All projects</a><div class="section-kicker">Academic case study</div><h1>A network designed<br><em>with the whole picture.</em></h1><p class="hero-sub">PhotoHut: an academic network upgrade proposal combining infrastructure, security, equipment, and implementation planning.</p></section><div class="wrap case-layout"><aside><span class="section-kicker">In this study</span><a href="#study-0">Overview & my role</a><a href="#study-1">The technical challenge</a><a href="#study-2">Architecture & technologies</a><a href="#study-3">Implementation planning</a><a href="#study-4">Security & testing</a><a href="#study-5">Results & lessons</a></aside><div><section class="case-section" id="study-0"><div class="section-kicker">01</div><h2>Overview & my role</h2><p>I developed an academic design proposal for the fictional PhotoHut business as part of my IT studies at Purdue University Global. This completed planning project was not deployed to a production environment.</p></section><section class="case-section" id="study-1"><div class="section-kicker">02</div><h2>The technical challenge</h2><p>Plan a network upgrade that brings logical architecture, physical infrastructure, equipment selection, security, budgeting, and user training into one documented proposal.</p></section><section class="case-section" id="study-2"><div class="section-kicker">03</div><h2>Architecture & technologies</h2><p>The proposal covers topology, IP addressing, subnetting, routing and switching considerations, segmentation, and physical layout. The original capstone contains the design documentation.</p><div class="architecture-flow"><span>Business requirements</span><b>↓</b><span>Logical & physical network design</span><b>↓</b><span>Security, equipment & delivery plan</span></div><p class="caption">Conceptual overview of the proposal, not a production network diagram.</p></section><section class="case-section" id="study-3"><div class="section-kicker">04</div><h2>Implementation planning</h2><p>Documented equipment, budget considerations, implementation planning, and training materials. The deliverable is a proposal rather than a record of installed systems.</p></section><section class="case-section" id="study-4"><div class="section-kicker">05</div><h2>Security & testing</h2><p>Network segmentation and security policies form part of the design. No live deployment tests or production validation results are claimed.</p></section><section class="case-section" id="study-5"><div class="section-kicker">06</div><h2>Results & lessons</h2><p>The completed proposal demonstrates infrastructure planning and technical documentation. Considering equipment, security, budgets, and training together highlights how technical choices depend on operational needs.</p></section><section class="case-section"><h2>Supporting material</h2><a class="button primary" href="capstonefinal.pdf">Read original capstone PDF ↗</a></section></div></div></main><footer class="wrap footer"><a class="wordmark" href="index.html">Austin Dalton<span class="dot">.</span></a><span>Enterprise technology. Human perspective.</span><div><a href="https://github.com/AustinDDev">GitHub ↗</a><a href="https://www.linkedin.com/in/austinbdalton/">LinkedIn ↗</a><span>© <span id="year">2026</span></span></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="PhotoHut Network Infrastructure Upgrade: academic network design, simulation, security architecture, procurement research, and project management.">
+<meta name="theme-color" content="#101411">
+<title>PhotoHut Network Infrastructure Upgrade | Austin Dalton</title>
+<link rel="stylesheet" href="redesign.css">
+<link rel="stylesheet" href="printer-case-study.css"><link rel="stylesheet" href="photohut-case-study.css">
+<script src="main.js" defer>
+</script>
+<link rel="stylesheet" href="case-study-navigation.css">
+<link rel="stylesheet" href="navigation.css">
+</head>
+<body class="printer-study photohut-study"><a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner"><a class="wordmark" href="index.html"><span class="brand-icon">a/d</span> Austin Dalton<span class="dot">.</span></a>
+<nav aria-label="Main navigation"><a href="index.html">Home</a><a href="aboutme.html">About</a><a href="aboutme.html#experience-heading">Experience</a><a href="projects.html">Projects</a><a href="case-studies.html">Case Studies</a><a href="contact.html">Contact</a></nav>
+</div>
+</header>
+<main id="main">
+<section class="wrap printer-hero"><a class="text-link" href="case-studies.html">← Back to Case Studies</a>
+<div class="printer-hero-grid">
+<div>
+<p class="section-kicker">Case Study 03 / Academic Capstone</p>
+<h1>PhotoHut Network<br><em>Infrastructure Upgrade</em>
+</h1>
+<p class="printer-subtitle">Designing a scalable office and studio network through infrastructure planning, cybersecurity architecture, equipment evaluation, and project management.</p>
+<div class="academic-badge">Academic Capstone — Design &amp; Simulation</div>
+<div class="tags"><span>LAN design</span><span>Security planning</span><span>Vendor evaluation</span><span>Project management</span>
+</div>
+</div>
+<div class="printer-art photohut-hero-art"><svg viewBox="0 0 360 260" role="img" aria-labelledby="ph-hero-title"><title id="ph-hero-title">Concept network linking an office, studio, and server infrastructure</title><g fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="180" cy="125" r="35"/><path d="M180 90V40H75V65M180 40H285V65M145 125H65V175M215 125H295V175M180 160V215"/><rect x="45" y="65" width="60" height="40"/><rect x="255" y="65" width="60" height="40"/><rect x="35" y="175" width="60" height="40"/><rect x="265" y="175" width="60" height="40"/></g><g fill="currentColor" font-family="monospace" text-anchor="middle" font-size="9"><text x="180" y="129">NETWORK</text><text x="75" y="90">OFFICE</text><text x="285" y="90">STUDIO</text><text x="65" y="200">SERVER</text><text x="295" y="200">ACCESS</text><text x="180" y="237">DESIGN / SIMULATION</text></g></svg><span>ARCHITECTURE · SECURITY · DELIVERY PLANNING</span>
+</div>
+</div>
+<dl class="printer-meta">
+<div>
+<dt>My role</dt>
+<dd>Academic Project Manager and Network Design Contributor</dd>
+</div>
+<div>
+<dt>Period</dt>
+<dd>April–June 2023</dd>
+</div>
+<div>
+<dt>Scenario</dt>
+<dd>Fictional photography business</dd>
+</div>
+<div>
+<dt>Evidence</dt>
+<dd>Report · diagrams · schedule<br>Equipment comparison · presentation</dd>
+</div>
+</dl>
+</section>
+<div class="wrap printer-layout">
+<aside class="printer-toc">
+<nav aria-label="Case study sections"><span class="section-kicker">In this case study</span><a href="#overview">Project Overview</a><a href="#challenge">Business Challenge</a><a href="#role">My Role</a><a href="#architecture">Network Architecture</a><a href="#layouts">Physical Layouts</a><a href="#rack">Server Rack Design</a><a href="#security">Security Architecture</a><a href="#equipment">Equipment Comparison</a><a href="#budget">Project Budget</a><a href="#timeline">Project Timeline</a><a href="#implementation">Implementation Strategy</a><a href="#deliverables">Results & Deliverables</a><a href="#lessons">Lessons Learned</a><a href="#skills">Technologies & Skills</a>
+</nav>
+</aside>
+<div class="printer-content">
+<section class="printer-section" id="overview">
+<p class="section-kicker">01 / Project Overview</p>
+<h2>A modernization plan for office and studio.</h2>
+<p>PhotoHut was a fictional academic business modernization scenario for a growing photography company. The project combined office and studio network design, centralized server infrastructure, security planning, procurement research, scheduling, and simulation-based network work.</p>
+<div class="scope-note"><strong>Academic design &amp; simulation — not production deployment</strong>
+<p>The original report uses scenario language such as “implemented” and “installed.” Here, those activities are described as designed, proposed, modeled, planned, or simulated. No verified live installation or measured production outcome is claimed.</p>
+</div>
+</section>
+<section class="printer-section" id="challenge">
+<p class="section-kicker">02 / Business Challenge</p>
+<h2>Move beyond a peer-to-peer environment.</h2>
+<p>The scenario started with an existing peer-to-peer network. Growth introduced a need for centralized services, additional workstations, office and studio connectivity, stronger security practices, and room for future expansion.</p>
+<p>The design had to connect business needs with physical space, equipment compatibility, budget, security, and a practical transition plan.</p>
+</section>
+<section class="printer-section" id="role">
+<p class="section-kicker">03 / My Role</p>
+<h2>Academic project management and network design.</h2>
+<p>I prepared project planning and network design documentation, equipment evaluation, physical layouts, security recommendations, budgeting, and presentation materials. The report identifies my academic project manager role, and the schedule records me as its author.</p>
+<p>Team assignments, vendor activity, and stakeholder interactions in the original materials belong to the fictional scenario. They are not presented as a real project team, vendor negotiations, or customer meetings.</p>
+</section>
+<section class="printer-section" id="architecture">
+<p class="section-kicker">04 / Network Architecture</p>
+<h2>The network, organized around the business.</h2>
+<figure class="ph-topology">
+<figcaption><strong>Proposed network architecture</strong><span>CONCEPTUAL DESIGN / ACADEMIC PROJECT</span>
+</figcaption>
+<div class="ph-edge">
+<ol>
+<li>ISP / Internet<span>External connectivity</span>
+</li>
+<li>Perimeter Firewall<span>Traffic inspection boundary</span>
+</li>
+<li>Router / Core Connectivity<span>Network distribution</span>
+</li>
+<li>Network Switching<span>Access connections</span>
+</li>
+</ol>
+<aside class="cloud-service"><strong>Cloud services</strong><span>Logical external service connection through Internet access</span>
+</aside>
+</div>
+<div class="topology-branches">
+<div><strong>Office</strong><span>Workstations &amp; printers</span>
+</div>
+<div><strong>Studio</strong><span>Workstations &amp; POS</span>
+</div>
+<div><strong>Wireless access</strong><span>Access point</span>
+</div>
+<div><strong>Centralized server</strong><span>Services &amp; storage</span>
+</div>
+</div>
+<div class="ph-legend"><span><i></i> Solid lines / proposed network path</span><span><i class="dashed"></i> Dashed line / logical external service</span>
+</div>
+<p class="caption">Switching connects to each endpoint group. Based on the report’s physical network design (printed page 7) and original Visio legend. Cloud services are not an inline physical device. No addressing, VLAN IDs, protocol choices, throughput, or redundancy is implied.</p>
+</figure>
+</section>
+<section class="printer-section" id="layouts">
+<p class="section-kicker">05 / Physical Layouts</p>
+<h2>Physical space shapes the design.</h2>
+<p>Concepts redrawn from the report’s office, studio, and server-room material (printed pages 15–16). Simplified and not to scale; repeated desk symbols do not specify equipment quantities.</p>
+<div class="layout-viewer">
+<details class="layout-concept" open>
+<summary>Main Office<span>Conceptual Layout — Academic Project</span>
+</summary><svg viewBox="0 0 600 360" role="img" aria-labelledby="layout-office-title"><title id="layout-office-title">Main office concept with perimeter desks and an enclosed server room on the north wall</title><g fill="#1b2220" stroke="#79d6a0" stroke-width="2"><rect x="25" y="25" width="550" height="310"/><rect x="245" y="25" width="115" height="85"/><rect x="45" y="65" width="60" height="32"/><rect x="45" y="135" width="60" height="32"/><rect x="45" y="220" width="60" height="32"/><rect x="490" y="65" width="60" height="32"/><rect x="490" y="135" width="60" height="32"/><rect x="490" y="220" width="60" height="32"/><rect x="90" y="285" width="60" height="32"/><rect x="190" y="285" width="60" height="32"/><rect x="300" y="285" width="60" height="32"/><rect x="410" y="285" width="60" height="32"/><rect x="275" y="170" width="60" height="32"/></g><g fill="#f3f5f3" font-family="monospace" font-size="12" text-anchor="middle"><text x="302" y="60">SERVER ROOM</text><text x="302" y="83">North wall</text><text x="295" y="150">WORKSTATIONS</text><text x="300" y="255">OFFICE FLOOR</text><text x="125" y="120">WAP / SWITCH / PRINTERS</text></g></svg>
+<p>Perimeter workstation areas and a central desk arrangement, with an enclosed server room on the north wall. The report includes printers, switching, and wireless access.</p>
+</details>
+<details class="layout-concept" >
+<summary>Photography Studio<span>Conceptual Layout — Academic Project</span>
+</summary><svg viewBox="0 0 600 360" role="img" aria-labelledby="layout-studio-title"><title id="layout-studio-title">Studio concept with reception, waiting area, point of sale, and photography workspace</title><g fill="#1b2220" stroke="#79d6a0" stroke-width="2"><path d="M25 25H575V335H25Z"/><path d="M190 25V240H575"/><rect x="45" y="65" width="115" height="45"/><rect x="45" y="270" width="115" height="40"/><rect x="220" y="55" width="70" height="40"/><rect x="240" y="280" width="35" height="25"/><rect x="290" y="280" width="35" height="25"/><rect x="340" y="280" width="35" height="25"/><rect x="390" y="280" width="35" height="25"/><rect x="440" y="280" width="35" height="25"/><rect x="490" y="280" width="35" height="25"/></g><g fill="#f3f5f3" font-family="monospace" font-size="12" text-anchor="middle"><text x="102" y="55">STUDIO DESK</text><text x="100" y="160">PHOTOGRAPHY</text><text x="100" y="185">SPACE</text><text x="390" y="120">STUDIO / OFFICE SPACE</text><text x="102" y="295">RECEPTION / POS</text><text x="380" y="265">WAITING AREA</text></g></svg>
+<p>Photography space, a dedicated workstation, reception and point of sale, plus a waiting area.</p>
+</details>
+<details class="layout-concept" >
+<summary>Server Room<span>Conceptual Layout — Academic Project</span>
+</summary><svg viewBox="0 0 600 360" role="img" aria-labelledby="layout-server-title"><title id="layout-server-title">Enclosed server room concept with rack and environmental control</title><g fill="#1b2220" stroke="#79d6a0" stroke-width="2"><rect x="75" y="25" width="450" height="310"/><rect x="230" y="65" width="140" height="195"/><path d="M75 310H160M440 335V290H525"/></g><g fill="#f3f5f3" font-family="monospace" font-size="12" text-anchor="middle"><text x="300" y="100">SERVER RACK</text><text x="300" y="150">NETWORK</text><text x="300" y="180">SERVER / STORAGE</text><text x="300" y="210">POWER</text><text x="300" y="45">ENVIRONMENT-CONTROLLED ROOM</text><text x="300" y="295">RESTRICTED ACCESS</text></g></svg>
+<p>An enclosed, environment-controlled room within the main office, with restricted access and the rack concept shown below.</p>
+</details>
+</div>
+</section>
+<section class="printer-section" id="rack">
+<p class="section-kicker">06 / Server Rack Design</p>
+<h2>A rack concept for shared infrastructure.</h2>
+<div class="rack-design">
+<ol>
+<li><span class="rack-lights" aria-hidden="true">● ●</span>LCD monitor / management access</li>
+<li><span class="rack-lights" aria-hidden="true">● ●</span>Patch panel</li>
+<li><span class="rack-lights" aria-hidden="true">● ●</span>Shelf / rack accessories</li>
+<li><span class="rack-lights" aria-hidden="true">● ●</span>Router / modem</li>
+<li><span class="rack-lights" aria-hidden="true">● ●</span>Server</li>
+<li><span class="rack-lights" aria-hidden="true">● ●</span>Storage / RAID array</li>
+<li><span class="rack-lights" aria-hidden="true">● ●</span>Firewall</li>
+<li><span class="rack-lights" aria-hidden="true">● ●</span>Network switch</li>
+<li><span class="rack-lights" aria-hidden="true">● ●</span>UPS / power distribution</li>
+<li><span class="rack-lights" aria-hidden="true">● ●</span>Cable tray / spacer</li>
+</ol>
+</div>
+<p class="caption">Component groups follow the original rack drawing and Visio legend. The illustration is simplified: no rack-unit heights, hardware specifications, or exact mounting order are asserted. All components are proposed, not physically installed as part of a verified deployment.</p>
+</section>
+<section class="printer-section" id="security">
+<p class="section-kicker">07 / Security Architecture</p>
+<h2>Security in the design and the operating plan.</h2>
+<div class="security-controls">
+<article><span class="control-type">Proposed design</span>
+<h3>Perimeter firewall</h3>
+<p>A perimeter inspection boundary in the network architecture.</p>
+</article>
+<article><span class="control-type">Proposed design</span>
+<h3>IDS/IPS</h3>
+<p>Detection and prevention capabilities described in the logical security plan.</p>
+</article>
+<article><span class="control-type">Proposed design</span>
+<h3>Endpoint antivirus & anti-malware</h3>
+<p>Protection planned for servers and workstations.</p>
+</article>
+<article><span class="control-type">Policy recommendation</span>
+<h3>Role-based access control</h3>
+<p>Access based on job responsibilities and required resources.</p>
+</article>
+<article><span class="control-type">Policy recommendation</span>
+<h3>Individual accounts & authentication</h3>
+<p>Individual credentials, account lifecycle practices, and stronger authentication.</p>
+</article>
+<article><span class="control-type">Proposed design</span>
+<h3>Server room restrictions</h3>
+<p>Controlled physical access and environmental monitoring.</p>
+</article>
+<article><span class="control-type">Policy recommendation</span>
+<h3>Data encryption</h3>
+<p>Encryption to protect data confidentiality.</p>
+</article>
+<article><span class="control-type">Policy recommendation</span>
+<h3>Daily backup & recovery validation</h3>
+<p>Daily backups with offsite/cloud copies; weekly validation testing recommended.</p>
+</article>
+<article><span class="control-type">Policy recommendation</span>
+<h3>Retention & privacy</h3>
+<p>Data classification, clear collection practices, retention, and secure deletion.</p>
+</article>
+<article><span class="control-type">Planned training</span>
+<h3>Employee security training</h3>
+<p>Role-aware training and documentation; continuous training is a future recommendation.</p>
+</article>
+</div>
+<div class="scope-note"><strong>Future recommendations</strong>
+<p>The report additionally discusses VPN services, load balancing as the business grows, regular maintenance and security tests, and continuous training. These are recommendations, not verified deployed controls or measured risk reduction.</p>
+</div>
+</section>
+<section class="printer-section" id="equipment">
+<p class="section-kicker">08 / Equipment Comparison</p>
+<h2>Evaluate options before choosing equipment.</h2>
+<p>The academic equipment comparison evaluated three vendor columns against cost, compatibility, warranties, and support. The table below transcribes selected rows from the inspected <em>costcompare.xlsx</em> source found alongside the supplied files.</p>
+<div class="tracker-scroll" role="region" aria-label="Historical academic vendor comparison" tabindex="0">
+<table><caption>Selected source estimates — 2023 academic comparison; not current quotes or real purchases</caption>
+<thead>
+<tr>
+<th scope="col">Equipment</th>
+<th scope="col">Dell Pro Services<br>Vendor 1</th>
+<th scope="col">Leonov Pro Services<br>Vendor 2</th>
+<th scope="col">Cisco Services<br>Vendor 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Workstations</th>
+<td>$1,441.99</td>
+<td>$1,539.00</td>
+<td>$2,429.99</td>
+</tr>
+<tr>
+<th scope="row">Firewall</th>
+<td>$1,040.36</td>
+<td>$806.00</td>
+<td>$1,480.00</td>
+</tr>
+<tr>
+<th scope="row">Server</th>
+<td>$4,585.00</td>
+<td>$4,466.59</td>
+<td>$5,200.00</td>
+</tr>
+<tr>
+<th scope="row">Switch</th>
+<td>$400.00</td>
+<td>$2,510.00</td>
+<td>$1,721.00</td>
+</tr>
+<tr>
+<th scope="row">Storage array</th>
+<td>$750.00</td>
+<td>$600.00</td>
+<td>$900.00</td>
+</tr>
+<tr>
+<th scope="row">UPS</th>
+<td>$249.00</td>
+<td>$399.00</td>
+<td>$175.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="caption">Vendor names are transcribed as labeled in the academic source, not claims of commercial relationships. Values are selected line items, not standardized configurations or a budget reconciliation. The source does not establish real vendor negotiations or purchases.</p>
+</section>
+<section class="printer-section" id="budget">
+<p class="section-kicker">09 / Project Budget</p>
+<h2>An estimate for an academic scenario.</h2>
+<div class="budget-total"><span>Academic Project Budget Estimate — 2023</span><strong>$69,360</strong>
+<p>Presentation estimate · not actual expenditure or savings</p>
+</div>
+<figure class="budget-chart">
+<figcaption>Presentation budget categories</figcaption>
+<ul>
+<li><span>Project design</span>
+<div aria-hidden="true"><i style="--share:1.442%"></i>
+</div><strong>$1,000</strong>
+</li>
+<li><span>Project procurement</span>
+<div aria-hidden="true"><i style="--share:87.529%"></i>
+</div><strong>$60,710</strong>
+</li>
+<li><span>Project delivery</span>
+<div aria-hidden="true"><i style="--share:1.658%"></i>
+</div><strong>$1,150</strong>
+</li>
+<li><span>Project management</span>
+<div aria-hidden="true"><i style="--share:2.163%"></i>
+</div><strong>$1,500</strong>
+</li>
+<li><span>Other costs</span>
+<div aria-hidden="true"><i style="--share:7.209%"></i>
+</div><strong>$5,000</strong>
+</li>
+</ul>
+</figure>
+<div class="scope-note"><strong>The sources contain different budget versions.</strong>
+<p>The presentation’s embedded tables total $69,360. The report’s budget image shows $30,240.21 as its scheduled total. This page uses the requested presentation estimate; it does not combine the versions or imply they reconcile. The category figures above sum to the displayed presentation total.</p>
+</div>
+</section>
+<section class="printer-section" id="timeline">
+<p class="section-kicker">10 / Project Timeline</p>
+<h2>April 26–June 27, 2023.</h2>
+<div class="timeline-period"><span>26 APR 2023</span><span>ACADEMIC PROJECT PERIOD</span><span>27 JUN 2023</span>
+</div>
+<ol class="project-phases">
+<li><span>01</span><strong>Requirements and research</strong>
+</li>
+<li><span>02</span><strong>Conceptual network design</strong>
+</li>
+<li><span>03</span><strong>Physical infrastructure design</strong>
+</li>
+<li><span>04</span><strong>Equipment selection and procurement planning</strong>
+</li>
+<li><span>05</span><strong>Security architecture</strong>
+</li>
+<li><span>06</span><strong>Implementation and migration planning</strong>
+</li>
+<li><span>07</span><strong>Testing and training planning</strong>
+</li>
+<li><span>08</span><strong>Project closure and presentation</strong>
+</li>
+</ol>
+<p class="caption">Broad workstream summary, not a dated task-by-task Gantt chart. The inspected XLSM schedule includes malformed date entries and scenario status records; exact dependencies and completion claims are not reproduced. The period is documented on the presentation cover.</p>
+</section>
+<section class="printer-section" id="implementation">
+<p class="section-kicker">11 / Implementation Strategy</p>
+<h2>A proposed path to implementation.</h2>
+<p>The report and schedule outline how the design could move into implementation. These steps remain a plan within the academic scenario.</p>
+<ol class="approach-list">
+<li>Equipment procurement planning and compatibility review.</li>
+<li>Server-room preparation, rack, power, and environmental planning.</li>
+<li>Network equipment setup and security configuration planning.</li>
+<li>Office workstation and studio equipment deployment planning.</li>
+<li>Server services, accounts, applications, and access configuration planning.</li>
+<li>Connectivity, security, and recovery testing planning.</li>
+<li>Data migration and post-migration verification planning.</li>
+<li>User training, documentation, maintenance planning, and handover.</li>
+</ol>
+</section>
+<section class="printer-section" id="deliverables">
+<p class="section-kicker">12 / Results & Deliverables</p>
+<h2>Documented academic deliverables.</h2>
+<ul class="results-list">
+<li>Conceptual and physical network designs</li>
+<li>Network and floor-plan diagrams</li>
+<li>Server rack concept</li>
+<li>Equipment/vendor cost comparison</li>
+<li>Security recommendations</li>
+<li>Project budget estimates</li>
+<li>Implementation plan</li>
+<li>Project schedule</li>
+<li>Stakeholder presentation for the academic scenario</li>
+<li>Simulation-based network work</li>
+</ul>
+<p>The supplied files substantiate the design documentation, diagrams, comparison, schedule, and presentation. Simulation-based work is part of the academic project context; no separate simulation test logs or measured performance results were supplied. No live installation, uptime gain, speed increase, savings, or security improvement is claimed.</p><a class="button primary" href="capstonefinal.pdf">Read original academic report ↗</a>
+<p class="caption">The original PDF retains its scenario narrative; read “installed” or “implemented” in that academic context. It is not independent evidence of production deployment.</p>
+</section>
+<section class="printer-section" id="lessons">
+<p class="section-kicker">13 / Lessons Learned</p>
+<h2>Architecture is only one part of delivery.</h2>
+<div class="lesson-grid">
+<article>
+<h3>Start with business requirements</h3>
+<p>Office workflows, studio needs, and future growth shape the infrastructure design.</p>
+</article>
+<article>
+<h3>Design for the physical setting</h3>
+<p>Space, rack equipment, cabling, power, and environmental needs belong alongside the logical network.</p>
+</article>
+<article>
+<h3>Connect security and operations</h3>
+<p>Access, backups, privacy, training, and maintainability need an operating plan as well as technical controls.</p>
+</article>
+<article>
+<h3>Keep planning artifacts consistent</h3>
+<p>Budget versions, schedules, equipment comparisons, and presentations should be reconciled before treating a plan as ready for execution.</p>
+</article>
+</div>
+</section>
+<section class="printer-section" id="skills">
+<p class="section-kicker">14 / Technologies & Skills</p>
+<h2>Technical design with project discipline.</h2>
+<div class="tags ph-skills"><span>Network Architecture</span><span>LAN Design</span><span>Routing and Switching Concepts</span><span>Firewalls</span><span>IDS/IPS Planning</span><span>Server Infrastructure</span><span>Physical Network Design</span><span>Security Policy</span><span>Backup Planning</span><span>Vendor Evaluation</span><span>Budgeting</span><span>Project Management</span><span>Network Simulation</span>
+</div>
+<p class="caption">No specific simulation product is asserted. Source review included the supplied report, presentation, both Visio files, and XLSM schedule, plus the adjacent equipment-comparison workbook. Source files were inspected without executing macros.</p><a class="button primary" href="projects.html">← Back to Projects</a>
+</section>
+</div>
+</div><nav class="wrap case-study-navigation" aria-label="Case study navigation"><a href="employee-onboarding-case-study.html"><span>← Previous · Case Study 02</span><strong>Employee Onboarding &amp; Endpoint Deployment</strong></a><a class="case-index-link" href="case-studies.html"><span>Case study index</span><strong>All Case Studies ↗</strong></a><a href="projects.html#photohut-network-project"><span>Related technical project</span><strong>View project overview ↗</strong></a><a href="it-operations-case-study.html"><span>Next · Case Study 04 →</span><strong>Enterprise IT Operations &amp; Incident Management</strong></a></nav></main>
+<footer class="wrap footer"><a class="wordmark" href="index.html">Austin Dalton<span class="dot">.</span></a><span>Enterprise technology. Human perspective.</span>
+<div><a href="https://github.com/AustinDDev">GitHub ↗</a><a href="https://www.linkedin.com/in/austinbdalton/">LinkedIn ↗</a><span>© <span id="year">2026</span></span>
+</div>
+</footer>
+</body>
+</html>

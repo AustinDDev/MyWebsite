@@ -50,7 +50,7 @@ Reported contributions include:
 - Helped improve processes for ordering printer ink and supplies.
 - Purchased computer peripherals and supplies through vendors.
 
-**Previous technical environment:** Google-based tools, ManageNow (verify exact product branding), Active Directory (do not imply sole ownership), Five9 softphone, and PioneerRx pharmacy software.
+**Previous technical environment:** Google-based tools, ManageEngine by Zoho, Active Directory (do not imply sole ownership), Five9 softphone, and pharmacy management software.
 
 Confirm exact past-role dates and what parts of performance-review activities Austin personally conducted before publishing additional management claims.
 

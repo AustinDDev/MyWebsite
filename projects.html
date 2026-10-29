@@ -1,63 +1,186 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Austin Dalton — enterprise IT operations, infrastructure, and cybersecurity education."><meta name="theme-color" content="#0B0F0D"><title>Projects | Austin Dalton</title><link rel="stylesheet" href="redesign.css"><script src="main.js" defer></script></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="wrap header-inner"><a class="wordmark" href="index.html"><span class="brand-icon">a/d</span> Austin Dalton<span class="dot">.</span></a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="projects.html">Work</a><a href="aboutme.html">About</a><a href="contact.html">Let’s connect ↗</a></nav></div></header><main id="main"><section class="section wrap"><div class="section-kicker">Selected projects</div><h1>Ideas backed by<br><em>technical work.</em></h1><p class="hero-sub">A combination of real workplace contributions, academic work, and independent development. Professional work is summarized without confidential data; planned labs appear separately below.</p><div class="cards"><article class="card"><span class="card-number">01 / IT OPERATIONS · PROFESSIONAL EXPERIENCE</span><h3>Printer Monitoring &amp; Usage Analytics</h3><p>Implemented FLEX Technology vendor-provided DCA monitoring for supported network printers, manually tracked printing activity in Excel, identified high-volume usage, and reviewed available maintenance indicators. Locally connected printers were outside DCA coverage.</p><span class="tags"><span>Monitoring</span><span>Excel</span><span>Operations</span></span><a class="card-arrow" href="print-monitoring-case-study.html">Read case study ↗</a></article><article class="card"><span class="card-number">02 / NETWORK ARCHITECTURE · ACADEMIC</span><h3>PhotoHut Enterprise Network Design</h3><p>Developed a proposed network upgrade for a growing business, including network topology, IP addressing, subnetting, routing and switching considerations, physical layout, equipment selection, security policies, budget planning, and training documentation.</p><span class="tags"><span>Architecture</span><span>Networking</span><span>Security planning</span></span><a class="card-arrow" href="network-design-case-study.html" target="_blank" rel="noopener">Read case study ↗</a></article><article class="card"><span class="card-number">03 / CYBERSECURITY · ACADEMIC</span><h3>Organizational Security Culture & Cyber Risk</h3><p>Researched how leadership, employee behavior, security training, organizational policies, and accountability affect cyber risk. Focused on practical strategies to build stronger everyday security practices alongside technical controls.</p><span class="tags"><span>Security research</span><span>Risk</span><span>Culture</span></span><a class="card-arrow" href="security-culture-case-study.html">Read case study ↗</a></article><article class="card"><span class="card-number">04 / WEB DEVELOPMENT · INDEPENDENT</span><h3>Personal Portfolio Website</h3><p>Built and maintain this personal professional portfolio with HTML, CSS, JavaScript, Git, GitHub, and VS Code, using iterative updates to improve clarity, responsive layout, accessibility, and presentation of technical work.</p><span class="tags"><span>HTML/CSS</span><span>JavaScript</span><span>Git</span></span><a class="card-arrow" href="https://github.com/AustinDDev/MyWebsite" target="_blank" rel="noopener">View source code ↗</a></article></div></section>
-<section class="section muted" id="upcoming-projects" aria-labelledby="upcoming-heading"><div class="wrap">
-<div class="section-kicker">Future case studies / Project roadmap</div>
-<h2 id="upcoming-heading">Currently planning.<br><em>Built to demonstrate.</em></h2>
-<p class="upcoming-intro">These six projects are planned technical case studies. They describe intended scope and deliverables, <strong>not completed implementations or measured results</strong>. Each will gain diagrams, code, testing evidence, and a full write-up as it is developed.</p>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Technical projects and deliverables by Austin Dalton: printer monitoring, endpoint onboarding, academic network design, and Windows migration."><meta name="theme-color" content="#101411"><title>Projects | Austin Dalton</title><link rel="stylesheet" href="redesign.css"><link rel="stylesheet" href="projects.css"><script src="main.js" defer></script><link rel="stylesheet" href="navigation.css">
+<link rel="stylesheet" href="portfolio-sections.css">
+</head><body class="projects-page"><a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap header-inner"><a class="wordmark" href="index.html"><span class="brand-icon">a/d</span> Austin Dalton<span class="dot">.</span></a><nav aria-label="Main navigation"><a href="index.html">Home</a><a href="aboutme.html">About</a><a href="aboutme.html#experience-heading">Experience</a><a href="projects.html">Projects</a><a href="case-studies.html">Case Studies</a><a href="contact.html">Contact</a></nav>
+</div>
+</header><main id="main">
+<section class="wrap selected-work-intro">
+<p class="section-kicker">Portfolio / Technical work &amp; deliverables</p>
+<h1>Projects</h1>
+<p class="work-subheading">Technical implementations, infrastructure designs, and solutions I have contributed to building and delivering.</p>
+<p class="work-introduction">Explore the work itself here. For the context, decisions, coordination, and lessons behind it, visit the <a class="text-link" href="case-studies.html">Case Studies</a>.</p>
+</section>
+<section class="wrap project-selection" aria-labelledby="technical-projects-heading">
+<div class="filter-heading">
+<h2 id="technical-projects-heading">Technical projects</h2>
+<p>Existing work, with source material or a documented technical view.</p>
+</div>
+<div class="cards deliverables-grid">
+<article class="card deliverable-card" id="printer-monitoring-project" aria-labelledby="printer-monitoring-project-title">
+<p class="deliverable-status">Documented professional contribution</p>
+<h3 id="printer-monitoring-project-title">Printer Monitoring &amp; Usage Analytics</h3>
+<p>Implemented monitoring for supported network-connected printers and manually recorded readings in Excel to review printing activity and available maintenance indicators.</p>
+<dl class="project-role">
+<dt>My role</dt>
+<dd>IT Desktop Support</dd>
+</dl>
+<ul class="skill-tags" aria-label="Technologies or capabilities">
+<li>DCA</li>
+<li>Microsoft Excel</li>
+<li>Usage tracking</li>
+<li>Maintenance visibility</li>
+</ul>
+<div class="deliverable-links"><a class="card-arrow" href="print-monitoring-case-study.html#tracker">View usage dashboard <span aria-hidden="true">↗</span></a><a class="text-link" href="print-monitoring-case-study.html">Related Case Study 01 ↗</a>
+</div>
+</article>
+<article class="card deliverable-card" id="employee-onboarding-project" aria-labelledby="employee-onboarding-project-title">
+<p class="deliverable-status">Documented professional contribution</p>
+<h3 id="employee-onboarding-project-title">Employee Onboarding &amp; Endpoint Deployment</h3>
+<p>Prepared Windows computers and managed iPads through an established onboarding process, with account verification, application setup, deployment troubleshooting, and delivery coordination.</p>
+<dl class="project-role">
+<dt>My role</dt>
+<dd>IT Desktop Support</dd>
+</dl>
+<ul class="skill-tags" aria-label="Technologies or capabilities">
+<li>Active Directory</li>
+<li>Microsoft 365</li>
+<li>SCCM/MECM</li>
+<li>Intune</li>
+</ul>
+<div class="deliverable-links"><a class="card-arrow" href="employee-onboarding-case-study.html#workflow">View deployment workflow <span aria-hidden="true">↗</span></a><a class="text-link" href="employee-onboarding-case-study.html">Related Case Study 02 ↗</a>
+</div>
+</article>
+<article class="card deliverable-card" id="photohut-network-project" aria-labelledby="photohut-network-project-title">
+<p class="deliverable-status">Academic Design &amp; Simulation</p>
+<h3 id="photohut-network-project-title">PhotoHut Network Infrastructure Design</h3>
+<p>Academic infrastructure design and simulation work combining office and studio layouts, network architecture, security planning, equipment evaluation, and implementation documentation.</p>
+<dl class="project-role">
+<dt>My role</dt>
+<dd>Academic Project Manager and Network Design Contributor</dd>
+</dl>
+<ul class="skill-tags" aria-label="Technologies or capabilities">
+<li>Network design</li>
+<li>Security planning</li>
+<li>Vendor evaluation</li>
+<li>Technical documentation</li>
+</ul>
+<div class="deliverable-links"><a class="card-arrow" href="capstonefinal.pdf">View original capstone report <span aria-hidden="true">↗</span></a><a class="text-link" href="network-design-case-study.html">Related Case Study 03 ↗</a>
+</div>
+</article>
+<article class="card deliverable-card" id="windows-migration-project" aria-labelledby="windows-migration-project-title">
+<p class="deliverable-status">Documented workplace initiative</p>
+<h3 id="windows-migration-project-title">Windows 11 Enterprise Migration</h3>
+<p>Performed and coordinated Windows 11 upgrades across a reported 63-device scope, with compatibility checks, manual upgrades or reimaging where needed, and post-upgrade validation.</p>
+<dl class="project-role">
+<dt>My role</dt>
+<dd>IT Operations / Service Desk Lead</dd>
+</dl>
+<ul class="skill-tags" aria-label="Technologies or capabilities">
+<li>Windows 11</li>
+<li>Compatibility assessment</li>
+<li>Endpoint lifecycle</li>
+<li>Functional validation</li>
+</ul>
+<div class="deliverable-links"><a class="card-arrow" href="windows-11-migration-case-study.html#workflow">View migration workflow <span aria-hidden="true">↗</span></a><a class="text-link" href="windows-11-migration-case-study.html">Related Case Study 05 ↗</a>
+</div>
+</article>
+<article class="card deliverable-card" id="little-warrior-wishes-project" aria-labelledby="little-warrior-wishes-title"><p class="deliverable-status">Live website · Redesign planned</p><h3 id="little-warrior-wishes-title">Little Warrior Wishes Website</h3><p>A nonprofit website presenting the organization’s mission, ways to support its work, and contact information. The public source repository uses Next.js, React, TypeScript, and Tailwind CSS. A redesign is planned.</p><dl class="project-role"><dt>My role</dt><dd>Website developer — credited on the live site</dd></dl><ul class="skill-tags" aria-label="Verified repository technologies"><li>Next.js</li><li>React</li><li>TypeScript</li><li>Tailwind CSS</li></ul><div class="deliverable-links"><a class="card-arrow" href="https://www.littlewarriorwishes.com/">Visit current website <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/AustinDDev/little-warrior-wishes">View source repository ↗</a><p class="caption">Case study write-up planned; no detailed case-study page is published yet.</p></div></article>
+</div>
+</section>
+<section class="wrap portfolio-supplement" aria-labelledby="additional-work-heading">
+<h2 id="additional-work-heading">Additional portfolio material</h2>
+<p>Existing academic research and independent development.</p>
+<div class="cards project-grid">
+<article class="card project-card additional-card" data-project-category="engineering"><span class="card-number">ADDITIONAL WORK / ACADEMIC RESEARCH</span>
+<span class="work-status published">Published</span>
+<h3>Organizational Security Culture & Cyber Risk</h3>
+<p>Researched how leadership, employee behavior, security training, organizational policies, and accountability affect cyber risk. Focused on practical strategies to build stronger everyday security practices alongside technical controls.</p>
+<p class="project-category">Technical Engineering &amp; Solutions</p><span class="tags"><span>Security research</span><span>Risk</span><span>Culture</span></span><a class="card-arrow" href="security-culture-case-study.html">Read case study ↗</a>
+</article>
+<article class="card project-card additional-card" data-project-category="engineering"><span class="card-number">ADDITIONAL WORK / INDEPENDENT</span>
+<span class="work-status coming-soon">Ongoing</span>
+<h3>Personal Portfolio Website</h3>
+<p>Built and maintain this personal professional portfolio with HTML, CSS, JavaScript, Git, GitHub, and VS Code, using iterative updates to improve clarity, responsive layout, accessibility, and presentation of technical work.</p>
+<p class="project-category">Technical Engineering &amp; Solutions</p><span class="tags"><span>HTML/CSS</span><span>JavaScript</span><span>Git</span></span><a class="card-arrow" href="https://github.com/AustinDDev/MyWebsite" target="_blank" rel="noopener">View source code ↗</a>
+</article>
+</div>
+</section>
+<section class="section muted technical-roadmap" data-roadmap-group id="upcoming-projects" aria-labelledby="upcoming-heading">
+<div class="wrap">
+<div class="section-kicker">Future technical work / Project roadmap</div>
+<h2 id="upcoming-heading">Currently planning.<br><em>Built to demonstrate.</em>
+</h2>
+<p class="upcoming-intro">These six technical lab and software concepts remain on the portfolio roadmap. They describe intended scope and deliverables, <strong>not completed implementations or measured results</strong>. Each will gain diagrams, code, testing evidence, and a full write-up as it is developed.</p>
 <div class="cards upcoming-grid">
-<article class="card project-placeholder" id="enterprise-infrastructure" aria-labelledby="enterprise-infrastructure-title">
-<span class="card-number">01 / INFRASTRUCTURE &amp; IDENTITY</span>
+<article class="card project-placeholder" data-project-category="engineering" id="enterprise-infrastructure" aria-labelledby="enterprise-infrastructure-title">
+<span class="card-number">PLANNED LAB / INFRASTRUCTURE &amp; IDENTITY</span>
 <span class="project-status"><span class="project-status-dot" aria-hidden="true"></span>Planned project</span>
 <h3 id="enterprise-infrastructure-title">Enterprise IT Infrastructure &amp; Identity Management</h3>
 <p>A simulated two-site organization with centralized identity, Windows administration, Microsoft 365, endpoint enrollment, and security policies.</p>
 <p class="planned-proof"><strong>Planned deliverables:</strong> Lab architecture, documented configurations, test onboarding/offboarding workflows, and PowerShell administration scripts.</p>
-<div class="tags"><span>Active Directory</span><span>Entra ID</span><span>Intune</span><span>PowerShell</span></div>
+<p class="project-category">Technical Engineering &amp; Solutions</p>
+<div class="tags"><span>Active Directory</span><span>Entra ID</span><span>Intune</span><span>PowerShell</span>
+</div>
 <span class="placeholder-note">Case study will be published as work is completed.</span>
 </article>
-<article class="card project-placeholder" id="security-monitoring" aria-labelledby="security-monitoring-title">
-<span class="card-number">02 / CYBERSECURITY &amp; INCIDENT RESPONSE</span>
+<article class="card project-placeholder" data-project-category="engineering" id="security-monitoring" aria-labelledby="security-monitoring-title">
+<span class="card-number">PLANNED LAB / CYBERSECURITY &amp; INCIDENT RESPONSE</span>
 <span class="project-status"><span class="project-status-dot" aria-hidden="true"></span>Planned project</span>
 <h3 id="security-monitoring-title">Security Monitoring &amp; Incident Response Lab</h3>
 <p>An isolated lab for investigating authentication activity, privilege changes, and endpoint security events using controlled simulations.</p>
 <p class="planned-proof"><strong>Planned deliverables:</strong> Detection rules, monitoring dashboards, investigation timelines, and an incident response report.</p>
-<div class="tags"><span>Wazuh / SIEM</span><span>Sysmon</span><span>Windows logs</span><span>NIST</span></div>
+<p class="project-category">Technical Engineering &amp; Solutions</p>
+<div class="tags"><span>Wazuh / SIEM</span><span>Sysmon</span><span>Windows logs</span><span>NIST</span>
+</div>
 <span class="placeholder-note">Case study will be published as work is completed.</span>
 </article>
-<article class="card project-placeholder" id="it-operations-dashboard" aria-labelledby="it-operations-dashboard-title">
-<span class="card-number">03 / IT OPERATIONS &amp; ANALYTICS</span>
+<article class="card project-placeholder" data-project-category="operations" id="it-operations-dashboard" aria-labelledby="it-operations-dashboard-title">
+<span class="card-number">PLANNED LAB / IT OPERATIONS &amp; ANALYTICS</span>
 <span class="project-status"><span class="project-status-dot" aria-hidden="true"></span>Planned project</span>
 <h3 id="it-operations-dashboard-title">IT Operations Automation &amp; KPI Dashboard</h3>
 <p>A dashboard concept for surfacing service desk trends, ticket resolution performance, endpoint health, and recurring issues using synthetic data.</p>
 <p class="planned-proof"><strong>Planned deliverables:</strong> Working charts, documented data model, automation scripts, API workflows, and reproducible KPI calculations.</p>
-<div class="tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>React</span></div>
+<p class="project-category">IT Operations &amp; Leadership</p>
+<div class="tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>React</span>
+</div>
 <span class="placeholder-note">Case study will be published as work is completed.</span>
 </article>
-<article class="card project-placeholder" id="enterprise-network" aria-labelledby="enterprise-network-title">
-<span class="card-number">04 / NETWORKING &amp; SECURITY</span>
+<article class="card project-placeholder" data-project-category="engineering" id="enterprise-network" aria-labelledby="enterprise-network-title">
+<span class="card-number">PLANNED LAB / NETWORKING &amp; SECURITY</span>
 <span class="project-status"><span class="project-status-dot" aria-hidden="true"></span>Planned project</span>
 <h3 id="enterprise-network-title">Enterprise Network Design &amp; Security</h3>
 <p>An expansion of the PhotoHut network capstone into a simulated, segmented multi-location network with secure routing and site connectivity.</p>
 <p class="planned-proof"><strong>Planned deliverables:</strong> Network topology, VLAN and firewall configuration examples, connectivity tests, and documented security decisions.</p>
-<div class="tags"><span>VLANs</span><span>Routing</span><span>Firewalls</span><span>VPN</span></div>
+<p class="project-category">Technical Engineering &amp; Solutions</p>
+<div class="tags"><span>VLANs</span><span>Routing</span><span>Firewalls</span><span>VPN</span>
+</div>
 <span class="placeholder-note">Case study will be published as work is completed.</span>
 </article>
-<article class="card project-placeholder" id="ai-it-assistant" aria-labelledby="ai-it-assistant-title">
-<span class="card-number">05 / AI &amp; AUTOMATION</span>
+<article class="card project-placeholder" data-project-category="engineering" id="ai-it-assistant" aria-labelledby="ai-it-assistant-title">
+<span class="card-number">PLANNED LAB / AI &amp; AUTOMATION</span>
 <span class="project-status"><span class="project-status-dot" aria-hidden="true"></span>Planned project</span>
 <h3 id="ai-it-assistant-title">AI-Powered IT Support Assistant</h3>
 <p>A proposed knowledge-backed assistant that helps technicians investigate common enterprise IT problems without autonomously making privileged changes.</p>
 <p class="planned-proof"><strong>Planned deliverables:</strong> Searchable runbooks, cited troubleshooting guidance, human-reviewed command suggestions, and evaluation scenarios.</p>
-<div class="tags"><span>Python</span><span>RAG</span><span>AI APIs</span><span>Security</span></div>
+<p class="project-category">Technical Engineering &amp; Solutions</p>
+<div class="tags"><span>Python</span><span>RAG</span><span>AI APIs</span><span>Security</span>
+</div>
 <span class="placeholder-note">Case study will be published as work is completed.</span>
 </article>
-<article class="card project-placeholder" id="asset-management" aria-labelledby="asset-management-title">
-<span class="card-number">06 / ASSET LIFECYCLE &amp; SYSTEMS</span>
+<article class="card project-placeholder" data-project-category="engineering" id="asset-management" aria-labelledby="asset-management-title">
+<span class="card-number">PLANNED LAB / ASSET LIFECYCLE &amp; SYSTEMS</span>
 <span class="project-status"><span class="project-status-dot" aria-hidden="true"></span>Planned project</span>
 <h3 id="asset-management-title">Enterprise IT Asset Management Platform</h3>
 <p>A device inventory and lifecycle application concept covering ownership, endpoint status, authorized discovery, and operational reporting.</p>
 <p class="planned-proof"><strong>Planned deliverables:</strong> Synthetic asset dataset, inventory dashboard, secure APIs, lifecycle workflows, and example discovery scripts.</p>
-<div class="tags"><span>PowerShell</span><span>PostgreSQL</span><span>APIs</span><span>Inventory</span></div>
+<p class="project-category">Technical Engineering &amp; Solutions</p>
+<div class="tags"><span>PowerShell</span><span>PostgreSQL</span><span>APIs</span><span>Inventory</span>
+</div>
 <span class="placeholder-note">Case study will be published as work is completed.</span>
 </article>
 </div>
-</div></section>
-</main><footer class="wrap footer"><a class="wordmark" href="index.html">Austin Dalton<span class="dot">.</span></a><span>Enterprise technology. Human perspective.</span><div><a href="https://github.com/AustinDDev">GitHub ↗</a><a href="https://www.linkedin.com/in/austinbdalton/">LinkedIn ↗</a><span>© <span id="year">2026</span></span></div></footer></body></html>
+</div>
+</section></main><footer class="wrap footer"><a class="wordmark" href="index.html">Austin Dalton<span class="dot">.</span></a><span>Enterprise technology. Human perspective.</span>
+<div><a href="https://github.com/AustinDDev">GitHub ↗</a><a href="https://www.linkedin.com/in/austinbdalton/">LinkedIn ↗</a><span>© <span id="year">2026</span></span>
+</div></footer></body></html>

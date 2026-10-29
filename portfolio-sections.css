@@ -1,0 +1,22 @@
+/* Distinct indexes, shared portfolio card system; no duplicate detail pages. */
+.deliverables-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+.projects-page .deliverable-card{min-width:0;padding:28px;background:#1b2220;scroll-margin-top:180px}
+.deliverable-status{font:10px/1.6 monospace!important;color:#79d6a0!important;letter-spacing:.5px;text-transform:uppercase;margin:0 0 18px!important}
+.deliverable-card h3{margin:0 0 15px;font-size:26px;line-height:1.25}
+.deliverable-card>p:not(.deliverable-status){font-size:14px}
+.project-role{display:grid;grid-template-columns:75px 1fr;gap:8px 15px;margin:10px 0 22px;padding-top:18px;border-top:1px solid #333d39;font-size:12px}
+.project-role dt{color:#79d6a0}.project-role dd{margin:0;color:#b6c2ba}
+.deliverable-links{margin-top:auto;padding-top:20px;display:grid;gap:10px}
+.deliverable-links .card-arrow{margin-top:0;min-height:44px}
+.deliverable-links .text-link{justify-self:start}
+.pending-project{border-style:dashed}
+.pending-project .caption{margin-top:auto;padding-top:20px}
+.portfolio-supplement{padding-top:35px;padding-bottom:65px;border-top:1px solid #333d39}
+.portfolio-supplement>h2{font-size:27px;font-weight:500;letter-spacing:-.6px;margin:0 0 10px}
+.portfolio-supplement>p{color:#b6c2ba;font-size:14px;margin-bottom:25px}
+.portfolio-supplement .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.featured-index-links{display:flex;flex-direction:column;gap:14px;align-items:start;flex-shrink:0}
+.case-studies-page .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.case-studies-page .project-card{min-height:395px}
+@media(max-width:700px){.deliverables-grid,.portfolio-supplement .project-grid,.case-studies-page .project-grid{grid-template-columns:1fr}.projects-page .deliverable-card{padding:23px}.deliverable-card h3{font-size:24px}.project-role{grid-template-columns:1fr;gap:5px}.project-role dd{margin-bottom:7px}.featured-index-links{margin-top:18px;flex-direction:row;flex-wrap:wrap;gap:15px 22px}.portfolio-supplement{padding-bottom:45px}}
+@media(prefers-reduced-motion:reduce){.deliverable-card{transition:none!important;animation:none!important}}
