@@ -50,3 +50,7 @@
 .about-page .about-explore .actions{align-items:flex-start;gap:18px}
 }
 @media(prefers-reduced-motion:reduce){.about-page .card,.about-page .button{transition:none;transform:none}.about-page .card:hover,.about-page .button:hover{transform:none}}
+
+/* Motivation uses the existing prose scale with a restrained accent. */
+.about-beyond{border-top:1px solid var(--line)}
+.about-page .about-prose .about-motivation{border-left:2px solid var(--highlight);padding-left:18px;color:var(--ink);font-weight:500}
