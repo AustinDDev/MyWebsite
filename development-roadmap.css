@@ -1,0 +1,26 @@
+/* Projects index only: existing card system, separate live work and future ideas. */
+.projects-page .project-subtitle{font-size:18px;color:#F3F5F3;margin-top:0}
+.projects-page .live-project-group .deliverables-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.projects-page .live-project-group .deliverable-card:only-child{grid-column:1/-1;max-width:980px}
+.projects-page .deliverable-links{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px;border-top:1px solid #35463b;margin-top:22px}
+.projects-page .deliverable-links .card-arrow{border:0;padding:0;display:inline-flex;align-items:center;color:#79D6A0}
+.projects-page .deliverable-links .text-link{min-height:44px;display:inline-flex;align-items:center}
+.projects-page .development-roadmap{border-top:1px solid #35463b;background:#141b16}
+.projects-page .development-roadmap h2{font-size:clamp(36px,4.5vw,60px)}
+.projects-page .roadmap-disclaimer{font-size:14px;max-width:790px;color:#B6C2BA;border-left:2px solid #405b48;padding-left:16px;margin:24px 0 34px}
+.projects-page .roadmap-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.projects-page .roadmap-initiative{background:#171f1a;border:1px dashed #405145;transform:none;min-width:0}
+.projects-page .roadmap-initiative:hover{transform:none;border-color:#607968}
+.projects-page .roadmap-category{font:11px/1.7 ui-monospace,Consolas,monospace;letter-spacing:.5px;color:#79D6A0;margin:0 0 14px}
+.projects-page .roadmap-status{border:1px solid #405b48;color:#B6C2BA;font:11px/1.7 ui-monospace,Consolas,monospace;align-self:flex-start;margin:0;padding:4px 10px}
+.projects-page .roadmap-initiative h3{font-size:24px;line-height:1.35;margin:20px 0 10px}
+.projects-page .roadmap-initiative>p:not(.roadmap-category):not(.roadmap-status){font-size:14px;line-height:1.8}
+.projects-page .roadmap-initiative details{margin-top:18px;border-top:1px solid #35463b}
+.projects-page .roadmap-initiative summary{cursor:pointer;min-height:44px;padding:12px 0;color:#79D6A0;font-size:13px;line-height:1.7}
+.projects-page .roadmap-initiative details ul{padding-left:20px;color:#B6C2BA;font-size:13px;line-height:1.9}
+.projects-page .roadmap-initiative li::marker{color:#79D6A0}
+.projects-page .roadmap-note{color:#B6C2BA;font-size:12px;line-height:1.8}
+.projects-page .roadmap-initiative summary:focus-visible{outline:3px solid #79D6A0;outline-offset:5px}
+.legacy-project-anchors{height:0;overflow:visible}
+@media(max-width:700px){.projects-page .roadmap-grid,.projects-page .live-project-group .deliverables-grid{grid-template-columns:1fr}.projects-page .roadmap-initiative{padding:23px}.projects-page .deliverable-links{gap:10px 20px}.projects-page .selected-work-intro h1{font-size:clamp(42px,10vw,65px);overflow-wrap:normal}}
+@media(prefers-reduced-motion:reduce){.projects-page .roadmap-initiative,.projects-page .roadmap-initiative:hover{transform:none;transition:none}}

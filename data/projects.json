@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Little Warrior Wishes",
+    "slug": "little-warrior-wishes",
+    "subtitle": "Nonprofit Website Development",
+    "description": "Designed, developed, and deployed a nonprofit website to establish an online presence, communicate its mission, and provide access to organizational information and engagement opportunities.",
+    "category": "Technical Engineering & Solutions",
+    "status": "Live · Actively Improving",
+    "featured": true,
+    "projectType": "Real-world nonprofit website",
+    "role": "Website development & deployment",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vercel",
+      "Formspree",
+      "Facebook Page Plugin"
+    ],
+    "liveUrl": "https://www.littlewarriorwishes.com/",
+    "githubUrl": "https://github.com/AustinDDev/little-warrior-wishes",
+    "detailRoute": "little-warrior-wishes-project.html",
+    "note": "The website is live. Contact-form and Facebook integrations are being reworked."
+  },
+  {
+    "title": "DaltonDev.me",
+    "slug": "daltondev-me",
+    "subtitle": "Personal Portfolio Platform",
+    "description": "My personal professional portfolio and an ongoing development project. I designed, developed, and deployed it to showcase my experience in IT operations, project delivery, cybersecurity education, and technical engineering. The platform continues to evolve through new content, functionality, and design improvements.",
+    "category": "Technical Engineering & Solutions",
+    "status": "Live · Continuously Improving",
+    "featured": false,
+    "projectType": "Personal Development",
+    "role": "Project Owner & Developer",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
+      "GitHub",
+      "ChatGPT",
+      "Codex"
+    ],
+    "liveUrl": "https://daltondev.me",
+    "githubUrl": "https://github.com/AustinDDev/MyWebsite",
+    "detailRoute": "daltondev-me-project.html"
+  }
+]

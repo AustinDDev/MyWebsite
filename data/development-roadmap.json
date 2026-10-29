@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Dalton AI Development Lab",
+    "slug": "dalton-ai-development-lab",
+    "category": "AI & Infrastructure",
+    "status": "Planning",
+    "description": "Planning a local and hybrid AI development environment to support software engineering, autonomous development agents, task management, and workflow automation.",
+    "notesLabel": "Long-term areas of exploration",
+    "notes": [
+      "Local AI model inference",
+      "Hybrid local/cloud processing",
+      "Specialized development agents",
+      "AI-assisted software engineering",
+      "Task orchestration",
+      "Development infrastructure",
+      "Remote monitoring and management"
+    ]
+  },
+  {
+    "title": "AI Development Dashboard",
+    "slug": "ai-development-dashboard",
+    "category": "Software & AI",
+    "status": "Concept",
+    "description": "Exploring a centralized development dashboard for monitoring AI agents, managing project tasks, coordinating automated workflows, and overseeing development infrastructure remotely.",
+    "notesLabel": "Potential capabilities",
+    "notes": [
+      "AI agent status monitoring",
+      "Task and project management",
+      "GitHub Projects integration",
+      "Agent workload coordination",
+      "Remote management interface",
+      "Development progress tracking",
+      "System health monitoring"
+    ]
+  },
+  {
+    "title": "Social Farming Simulation",
+    "slug": "social-farming-simulation",
+    "category": "Game Development",
+    "status": "Concept",
+    "description": "Conceptualizing a modern social farming game inspired by the original Facebook FarmVille experience, preserving its accessible crop-growing, livestock, farm expansion, and neighbor interactions while exploring deeper progression, expanded customization, and new multiplayer features.",
+    "notesLabel": "Possible design directions",
+    "note": "An original game concept with no affiliation with Zynga or FarmVille rights holders. These are possibilities, not implementation commitments.",
+    "notes": [
+      "Planting, growing, and harvesting crops",
+      "Time-based crop growth",
+      "Buying and selling farm goods",
+      "Earning in-game currency and expanding farmland",
+      "Raising livestock",
+      "Decorating and customizing farms",
+      "Visiting neighbors and helping friends",
+      "Unlocking crops, buildings, and equipment",
+      "Expanded livestock management",
+      "Crafting and production chains",
+      "Seasonal events and community activities",
+      "Cooperative farming and trading",
+      "Long-term progression",
+      "Expanded buildings and decorations",
+      "Cross-device or multiplayer functionality"
+    ]
+  },
+  {
+    "title": "Fantasy MMORPG",
+    "slug": "fantasy-mmorpg",
+    "category": "Game Development",
+    "status": "Concept",
+    "description": "Exploring the design of a persistent multiplayer fantasy world featuring character progression, cooperative gameplay, multiple realms, and scalable online infrastructure.",
+    "notesLabel": "Potential development areas",
+    "note": "A long-term concept; no operational game or multiplayer server is claimed.",
+    "notes": [
+      "Persistent online worlds",
+      "Character classes and progression",
+      "Multiplayer combat systems",
+      "Cooperative group activities",
+      "Multiple realms",
+      "Server architecture",
+      "Player persistence",
+      "Scalable networking",
+      "World-building and exploration"
+    ]
+  },
+  {
+    "title": "Multiplayer Action Game",
+    "slug": "multiplayer-action-game",
+    "category": "Game Development",
+    "status": "Concept",
+    "description": "Exploring competitive multiplayer game development with an emphasis on responsive gameplay, networking, matchmaking, dedicated servers, and scalable online systems.",
+    "notesLabel": "Potential areas",
+    "notes": [
+      "Multiplayer game mechanics",
+      "Dedicated server architecture",
+      "Player matchmaking",
+      "Session management",
+      "Networking and synchronization",
+      "Competitive gameplay",
+      "Server performance",
+      "Scalability testing"
+    ]
+  }
+]
