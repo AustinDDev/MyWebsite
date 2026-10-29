@@ -1,0 +1,71 @@
+.homepage{--bg:#101411;--ink:#F3F5F3;--muted:#B6C2BA;--highlight:#79D6A0;background:var(--bg)}
+.homepage main p{color:var(--muted)}
+.homepage .section-kicker{color:var(--highlight)}
+.homepage .home-hero{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);column-gap:48px;padding-top:68px}
+.homepage .hero h1{font-size:clamp(60px,7.3vw,100px);letter-spacing:-.055em;line-height:1.04;margin:28px 0}
+.homepage .hero-lead{font-size:20px;max-width:550px;line-height:1.65;letter-spacing:0}
+.homepage .hero .home-current-role{font-size:14px;max-width:510px}
+.homepage .topology{margin-left:0;transform:none;background:#141b16}
+.homepage .hero-bottom{line-height:1.7;gap:24px}
+.homepage .primary{background:var(--highlight);border-color:var(--highlight);color:#101411}
+.homepage .primary:hover{background:#9ee3ba;border-color:#9ee3ba;color:#101411}
+.homepage .actions .text-link,.homepage .card-arrow{min-height:44px;display:inline-flex;align-items:center}
+.homepage .card{background:#171f1a;border-color:#35463b}
+.homepage .card h3{color:var(--ink);font-size:23px;line-height:1.35}
+.homepage .card p{font-size:15px;line-height:1.75}
+.homepage .card-arrow{justify-content:space-between;gap:12px;color:var(--highlight)}
+.homepage .capability-icon{width:46px;height:46px;padding:8px;border:1px solid #405b48;border-radius:8px;color:var(--highlight);background:#1c2b21}
+.homepage .capability-icon svg{display:block;width:100%;height:100%}
+.homepage .capability-card .card-arrow{margin-top:auto}
+.homepage .capability-card p{margin-bottom:26px}
+.homepage .featured-card .tags{margin-top:auto}
+.homepage .tags span{font-size:11px;border-color:#405145}
+.homepage .home-experience{background:#141b16;border-block:1px solid var(--line)}
+.homepage .experience-preview-list{border-top:1px solid #35463b}
+.homepage .experience-preview-list article{display:grid;grid-template-columns:220px minmax(0,1fr);gap:36px;padding:28px 0;border-bottom:1px solid #35463b}
+.homepage .experience-preview-list h3{margin:0;font-size:24px;line-height:1.4;font-weight:500;letter-spacing:-.5px}
+.homepage .experience-preview-list p{margin:8px 0 0;max-width:760px;font-size:15px}
+.homepage .experience-preview-list .experience-period{color:var(--highlight);font:12px/1.7 ui-monospace,Consolas,monospace}
+.homepage .experience-preview-list .experience-role{color:var(--ink);font-size:17px}
+.homepage .home-about{gap:60px}
+.homepage .home-about p:first-child{margin-top:0}
+.homepage .homepage-roadmap{padding-top:52px;padding-bottom:60px}
+.homepage .homepage-roadmap h2{font-size:clamp(32px,3.5vw,46px)}
+.homepage .home-contact .actions{margin-top:22px}
+.homepage .home-contact .button{margin-top:0}
+.homepage a:focus-visible{outline:3px solid var(--highlight);outline-offset:5px}
+@media(max-width:1100px){
+.homepage .home-hero{column-gap:28px}
+.homepage .hero h1{font-size:clamp(56px,7.1vw,78px)}
+.homepage .hero .actions{align-items:flex-start;flex-direction:column;gap:14px}
+.homepage .capability-grid,.homepage .featured-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.homepage .card{padding:22px}
+.homepage .card h3{font-size:21px}
+}
+@media(max-width:900px){
+.homepage .home-hero{grid-template-columns:1fr;gap:38px}
+.homepage .hero h1{font-size:clamp(60px,10vw,88px)}
+.homepage .hero-lead,.homepage .hero .home-current-role{max-width:660px}
+.homepage .hero .actions{flex-direction:row;align-items:center;gap:24px}
+.homepage .topology{width:100%;max-width:520px;justify-self:center}
+.homepage .hero-bottom{margin-top:0}
+.homepage .capability-grid,.homepage .featured-grid{grid-template-columns:1fr}
+.homepage .card h3{font-size:24px;max-width:650px}
+.homepage .section-top{align-items:start;flex-direction:column;gap:10px}
+.homepage .experience-preview-list article{grid-template-columns:170px minmax(0,1fr);gap:24px}
+.homepage .home-about{grid-template-columns:1fr;gap:8px}
+}
+@media(max-width:600px){
+.homepage .home-hero{padding-top:40px}
+.homepage .hero h1{font-size:clamp(48px,12vw,72px)}
+.homepage .hero-lead{font-size:18px}
+.homepage .hero-bottom{flex-direction:column;gap:10px}
+.homepage .hero .actions{align-items:flex-start;flex-direction:column;gap:12px}
+.homepage .experience-preview-list article{grid-template-columns:1fr;gap:10px;padding:24px 0}
+.homepage .experience-preview-list h3{font-size:22px}
+.homepage .home-contact .actions{align-items:flex-start;gap:20px}
+}
+@media(prefers-reduced-motion:reduce){
+.homepage .card,.homepage .button{transition:none;transform:none}
+.homepage .card:hover,.homepage .button:hover{transform:none}
+}
