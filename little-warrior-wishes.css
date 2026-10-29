@@ -1,0 +1,23 @@
+/* Featured-project treatment and detail layout scoped to Little Warrior Wishes. */
+.projects-page .lww-featured{border-top:3px solid #79D6A0;background:#18231c}
+.projects-page .lww-featured .lww-subtitle{font-size:17px;color:#F3F5F3;margin-top:0}
+.lww-detail main p,.lww-detail main li{color:#B6C2BA}
+.lww-detail .lww-hero{padding-top:55px;padding-bottom:50px}
+.lww-detail .lww-hero h1{font-size:clamp(42px,6vw,76px);max-width:950px}
+.lww-detail .lww-lead{font-size:clamp(19px,2.5vw,27px);color:#F3F5F3}
+.lww-detail .lww-status{font:12px/1.6 ui-monospace,Consolas,monospace;color:#79D6A0;border:1px solid #405b48;padding:6px 12px;display:inline-block}
+.lww-detail .lww-notice{border-left:2px solid #79D6A0;padding-left:16px;font-size:14px;max-width:750px;margin-top:28px}
+.lww-section{display:grid;grid-template-columns:minmax(180px,1fr) minmax(0,2fr);gap:55px;padding:36px 0;border-top:1px solid #35463b}
+.lww-section h2{font-size:25px;font-weight:500;line-height:1.4;letter-spacing:-.6px;margin:0;color:#F3F5F3}
+.lww-section p{margin:0 0 18px;line-height:1.85;max-width:800px}
+.lww-section p:last-child{margin-bottom:0}
+.lww-section ul:not(.skill-tags){margin:0;padding-left:22px}
+.lww-section li{margin-bottom:10px}
+.lww-section li::marker{color:#79D6A0}
+.lww-detail .skill-tags{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none;margin:0 0 20px}
+.lww-detail .skill-tags li{border:1px solid #405145;padding:5px 10px;font-size:12px;margin:0}
+.lww-detail .primary{background:#79D6A0;color:#101411;border-color:#79D6A0}
+.lww-detail .primary:hover{background:#9ee3ba;color:#101411}
+.lww-detail .text-link{min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:800px){.lww-section{grid-template-columns:1fr;gap:18px;padding:30px 0}.lww-detail .lww-hero{padding-top:38px}.lww-detail .actions{gap:18px}}
+@media(prefers-reduced-motion:reduce){.lww-featured,.lww-detail .button{transition:none!important;transform:none!important}}
