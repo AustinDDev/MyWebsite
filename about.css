@@ -1,0 +1,52 @@
+/* About-only composition; shared typography, navigation and spacing are retained. */
+.about-page{--bg:#101411;--ink:#F3F5F3;--muted:#B6C2BA;--highlight:#79D6A0}
+.about-page main p{color:var(--muted)}
+.about-page main .section-kicker{color:var(--highlight)}
+.about-page .about-hero{padding-top:66px;padding-bottom:66px;border-bottom:1px solid var(--line)}
+.about-page .about-hero h1{font-size:clamp(56px,7vw,90px);line-height:1.05;letter-spacing:-.05em;max-width:880px}
+.about-page .about-intro{font-size:clamp(18px,2vw,22px);line-height:1.75;max-width:880px}
+.about-tags{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:28px 0 0;list-style:none}
+.about-tags li{font:11px/1.7 ui-monospace,Consolas,monospace;color:var(--highlight);border:1px solid #405b48;padding:6px 12px}
+.about-story,.about-ahead{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:65px}
+.about-prose{max-width:740px}
+.about-prose p{font-size:17px;line-height:1.85;margin:0 0 22px}
+.about-prose p:last-child{margin-bottom:0}
+.about-strengths{border-top:1px solid var(--line)}
+.about-strengths .cards{margin-top:36px}
+.about-strengths .card{background:#171f1a;border-color:#35463b}
+.about-strengths .card h3{font-size:23px;line-height:1.35}
+.about-strengths .card p{font-size:15px;line-height:1.8}
+.about-page .journey-note{font-size:14px;max-width:680px}
+.journey-list{list-style:none;margin:34px 0 0;padding:0 0 0 25px;border-left:1px solid #405b48}
+.journey-list li{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:50px;padding:27px 0;border-bottom:1px solid var(--line)}
+.journey-list li:before{content:"";position:absolute;left:-30px;top:37px;width:9px;height:9px;background:var(--highlight);border-radius:50%}
+.journey-list h3{font-size:24px;font-weight:500;line-height:1.4;letter-spacing:-.5px;margin:0 0 8px}
+.journey-list p{font-size:15px;margin:0 0 10px}
+.about-page .journey-list .journey-role{color:var(--ink);font-size:17px}
+.about-page .journey-list .journey-date{color:var(--highlight);font:12px/1.7 ui-monospace,Consolas,monospace;margin-top:12px}
+.about-page .text-link{min-height:44px;display:inline-flex;align-items:center;gap:10px}
+.about-page .primary{background:var(--highlight);color:#101411;border-color:var(--highlight)}
+.about-page .primary:hover{background:#9ee3ba;color:#101411}
+.about-page a:focus-visible,.about-additional summary:focus-visible{outline:3px solid var(--highlight);outline-offset:5px}
+.about-additional{border-block:1px solid var(--line)}
+.about-additional summary{padding-top:24px;padding-bottom:24px;cursor:pointer;color:var(--highlight);font-size:16px;min-height:44px}
+.about-additional .section:first-of-type{padding-top:35px}
+.about-page .about-explore .button{margin-top:0}
+.about-ahead{border-top:1px solid var(--line)}
+@media(max-width:1000px){
+.about-story,.about-ahead{gap:35px}
+.about-strengths .cards{grid-template-columns:1fr}
+.about-strengths .card{max-width:none}
+.journey-list li{gap:28px}
+}
+@media(max-width:700px){
+.about-page .about-hero{padding-top:44px;padding-bottom:48px}
+.about-story,.about-ahead{grid-template-columns:1fr;gap:18px}
+.about-prose p{font-size:16px}
+.journey-list{padding-left:20px}
+.journey-list li{grid-template-columns:1fr;gap:12px;padding:24px 0}
+.journey-list li:before{left:-25px;top:34px}
+.journey-list h3{font-size:22px}
+.about-page .about-explore .actions{align-items:flex-start;gap:18px}
+}
+@media(prefers-reduced-motion:reduce){.about-page .card,.about-page .button{transition:none;transform:none}.about-page .card:hover,.about-page .button:hover{transform:none}}
